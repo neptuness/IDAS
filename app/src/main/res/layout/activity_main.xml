@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF060031"
+    android:gravity="center"
+    tools:context=".MainActivity$PlaceholderFragment">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_dashboard"
+        android:id="@+id/button_dashboard"
+        android:onClick="gotoSystem"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_notification"
+        android:id="@+id/button_notification"
+        android:layout_below="@+id/button_dashboard"
+        android:onClick="gotoNotification"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_settings"
+        android:id="@+id/button_setting"
+        android:layout_below="@+id/button_notification"
+        android:onClick="gotoSetting"/>
+
+</RelativeLayout>
