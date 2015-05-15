@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/Users/NEPUS/AndroidStudioProjects/IDASH/app/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a0cf96dabecd7b65a3638a229e7bdb42e6b0a77">
+        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDASH/app/build/intermediates/pre-dexed/debug/android-support-v13-acbb6b48abc15f72054f0540c32b733197c17454.jar" />
+    </item>
+    <item
         jar="/Users/NEPUS/Downloads/IDASH/app/libs/android-support-v13.jar"
         jumboMode="false"
         revision="21.1.2"

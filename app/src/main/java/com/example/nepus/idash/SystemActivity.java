@@ -9,6 +9,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class SystemActivity extends FragmentActivity{
     private static final int NUM_PAGES = 3;
@@ -32,6 +33,7 @@ public class SystemActivity extends FragmentActivity{
                 invalidateOptionsMenu();
             }
         });
+
     }
 
     @Override
@@ -41,14 +43,22 @@ public class SystemActivity extends FragmentActivity{
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                finish();
+                return true;
+
+        }
         return true;
     }
 
     private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
         Fragment[] fragments;
+
         public ScreenSlidePagerAdapter(FragmentManager fragmentManager) {
             super(fragmentManager);
-            fragments = new Fragment[5];
+
+            fragments = new Fragment[3];
             for (int i=0; i<fragments.length; ++i)
                 fragments[i] = new InformationFragment();
         }
@@ -56,15 +66,11 @@ public class SystemActivity extends FragmentActivity{
         @Override
         public Fragment getItem(int position) {
             return fragments[position];
-//            return SystemPagerFragment.create(position);
-
         }
 
         @Override
         public int getCount() {
             return fragments.length;
-//            return NUM_PAGES;
-
         }
     }
 }

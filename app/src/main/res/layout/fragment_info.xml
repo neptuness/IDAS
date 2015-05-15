@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF060031">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Distance categry-->
+        <TextView
+            style="@style/Header"
+            android:text="@string/title_distance" />
+
+        <LinearLayout style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/distance_total" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_totalDistance"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/distance_sinceStart" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_distanceSinceStart"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/distance_timeStart" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_timeSinceStart"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <!--Energy category-->
+        <TextView
+            style="@style/Header"
+            android:text="@string/title_energy"
+            />
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/energy_fuel" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_fuel"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/energy_distance" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_remainingDistance"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/energy_rate" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_fuelRate"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/energy_pressure" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_fuelPressure"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <!--speed category-->
+        <TextView
+            style="@style/Header"
+            android:text="@string/title_speed"/>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/speed_rpm" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_rpm"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/speed_torque" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_torque"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/speed_max" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_maxSpeed"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/speed_time100" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_timeSpeed100"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <!--temperature category-->
+        <TextView
+            style="@style/Header"
+            android:text="@string/title_temperature"/>
+
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/temp_coolant" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_coolantTemp"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearDetails">
+            <TextView
+                style="@style/Details"
+                android:text="@string/temp_engine" />
+
+            <TextView
+                style="@style/Details"
+                android:id="@+id/val_engineTemp"
+                android:text="@string/dummy_data" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
