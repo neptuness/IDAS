@@ -7,6 +7,9 @@
     <string name="title_advance_setting">Advance Setting</string>
     <string name="title_settings">Settings</string>
     <string name="title_notification">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_map">Maps</string>
+
     
     <string name="title_distance">DISTANCE</string>
     <string name="distance_total">Total distance :</string>

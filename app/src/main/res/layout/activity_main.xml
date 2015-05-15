@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/title_dashboard"
         android:id="@+id/button_dashboard"
+        android:layout_below="@+id/button_maps"
         android:onClick="gotoSystem"
         />
     <Button
@@ -27,5 +28,12 @@
         android:id="@+id/button_setting"
         android:layout_below="@+id/button_notification"
         android:onClick="gotoSetting"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_map"
+        android:id="@+id/button_maps"
+        android:onClick="gotoMaps"
+        />
 
 </RelativeLayout>

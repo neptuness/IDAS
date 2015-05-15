@@ -90,4 +90,10 @@ public class MainActivity extends Activity{
         startActivity(intent);
     }
 
+    public void gotoMaps(View view){
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
+    }
+
+
 }
