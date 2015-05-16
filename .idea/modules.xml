@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IDASH.iml" filepath="$PROJECT_DIR$/IDASH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDAS.iml" filepath="$PROJECT_DIR$/IDAS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

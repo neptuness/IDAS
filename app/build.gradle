@@ -19,6 +19,12 @@ android {
     }
 }
 
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
+}
+
 configurations {
     all*.exclude group: 'com.android.support', module: 'support-v4'
 }
@@ -28,4 +34,13 @@ dependencies {
 
     compile 'com.google.android.gms:play-services:7.3.0'
     compile 'com.android.support:appcompat-v7:22.1.1'
+
+    compile(name:'Chart-2015.1.423-trial-release', ext:'aar')
+    compile(name:'Common-2015.1.423-trial-release', ext:'aar')
+    compile(name:'Data-2015.1.423-trial-release', ext:'aar')
+    compile(name:'Feedback-2015.1.423-trial-release', ext:'aar')
+    compile(name:'Input-2015.1.423-trial-release', ext:'aar')
+    compile(name:'List-2015.1.423-trial-release', ext:'aar')
+    compile(name:'Primitives-2015.1.423-trial-release', ext:'aar')
+
 }

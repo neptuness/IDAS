@@ -14,7 +14,7 @@ public class DashboardAdapter extends BaseAdapter{
     private Context mContext;
     private Button btns[];
 
-    public DashboardAdapter(Context c,int num_pages) {
+    public DashboardAdapter(Context c, int num_pages) {
         mContext = c;
         btns = new Button[num_pages];
 

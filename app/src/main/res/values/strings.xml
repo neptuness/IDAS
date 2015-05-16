@@ -36,5 +36,6 @@
     <string name="dummy_data">-</string>
 
     <string name="menu_add_widget">Add Widget</string>
+    <string name="action_settings">setting</string>
 </resources>
 
