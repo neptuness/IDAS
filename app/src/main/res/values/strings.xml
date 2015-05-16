@@ -10,6 +10,7 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_map">Maps</string>
 
+
     
     <string name="title_distance">DISTANCE</string>
     <string name="distance_total">Total distance :</string>
@@ -34,5 +35,15 @@
     <string name="temp_engine">Engine Oil :</string>
 
     <string name="dummy_data">-</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_history">HistoryActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
 </resources>
 

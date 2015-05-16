@@ -30,23 +30,41 @@ public class MapsActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         setUpMapIfNeeded();
+
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
+                new LatLng(13.728643, 100.775061), 19));
+
+        mMarker = mMap.addMarker(new MarkerOptions().position(new LatLng(13.728643, 100.775061)).title("StartPoint"));
+
+        PolylineOptions rectLine = new PolylineOptions()
+                .add(new LatLng(13.728643, 100.775061))
+                .add(new LatLng(13.729586, 100.775094))
+                .add(new LatLng(13.730138, 100.775035))
+                .add(new LatLng(13.730771, 100.775038));
+
+        rectLine.color(Color.RED);
+        mMap.addPolyline(rectLine);
+
     }
-//        setContentView(R.layout.activity_maps);
+
+
+
+//    PolylineOptions line = new PolylineOptions();
 //
-//        mMap = ((SupportMapFragment)getSupportFragmentManager()
-//                .findFragmentById(R.id.map)).getMap();
-//}
+//    LocationListener listener = new LocationListener() {
+
+//        public void onLocationChanged(Location loc) {
+//            LatLng coordinate = new LatLng(loc.getLatitude()
+//                    , loc.getLongitude());
+//            lat = loc.getLatitude();
+//            lng = loc.getLongitude();
+
+//            mMap.addMarker(new MarkerOptions().position(new LatLng(13.729104,  100.775048)).title("StartPoint"));
+//            LatLng coordinate = new LatLng(13.729104,  100.775048);
 
 
-    PolylineOptions line = new PolylineOptions();
-
-    LocationListener listener = new LocationListener() {
-        public void onLocationChanged(Location loc) {
-            LatLng coordinate = new LatLng(loc.getLatitude()
-                    , loc.getLongitude());
-            lat = loc.getLatitude();
-            lng = loc.getLongitude();
-
+//            lat = loc.getLatitude();
+//            lng = loc.getLongitude();
 //            if(mMarker != null) {
 //                line.add(new LatLng(lat, lng)).width(5).color(Color.RED);
 //                mMap.addPolyline(line);
@@ -58,34 +76,34 @@ public class MapsActivity extends FragmentActivity {
 //            mMap.addPolyline(line);
 
 
-            line.add(new LatLng(13.729104, 100.775048)).width(5).color(Color.RED);
-            mMap.addPolyline(line);
-
-            line.add(new LatLng(13.729586, 100.775094)).width(5).color(Color.RED);
-            mMap.addPolyline(line);
-
-            line.add(new LatLng(13.730138, 100.775035)).width(5).color(Color.RED);
-            mMap.addPolyline(line);
-
-            line.add(new LatLng(13.730771, 100.775038)).width(5).color(Color.RED);
-            mMap.addPolyline(line);
-
-            line.add(new LatLng(13.731536, 100.775032)).width(5).color(Color.RED);
-            mMap.addPolyline(line);
+//            line.add(new LatLng(13.729104, 100.775048)).width(5).color(Color.RED);
+//            //mMap.addPolyline(line);
+//
+//            line.add(new LatLng(13.729586, 100.775094)).width(5).color(Color.RED);
+//           // mMap.addPolyline(line);
+//
+//            line.add(new LatLng(13.730138, 100.775035)).width(5).color(Color.RED);
+//          //  mMap.addPolyline(line);
+//
+//            line.add(new LatLng(13.730771, 100.775038)).width(5).color(Color.RED);
+//          //  mMap.addPolyline(line);
+//
+//            line.add(new LatLng(13.731536, 100.775032)).width(5).color(Color.RED);
+//            mMap.addPolyline(line);
 
 
 //            mMarker = mMap.addMarker(new MarkerOptions()
 //                    .position(new LatLng(lat, lng)));
 
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
-                    coordinate, 16));
-        }
-
-        public void onStatusChanged(String provider, int status
-                , Bundle extras) {}
-        public void onProviderEnabled(String provider) {}
-        public void onProviderDisabled(String provider) {}
-    };
+//            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
+//                    coordinate, 16));
+//        }
+//
+//        public void onStatusChanged(String provider, int status
+//                , Bundle extras) {}
+//        public void onProviderEnabled(String provider) {}
+//        public void onProviderDisabled(String provider) {}
+//    };
 
     @Override
     protected void onResume() {
@@ -93,35 +111,34 @@ public class MapsActivity extends FragmentActivity {
         setUpMapIfNeeded();
 
 
-        lm = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-
-        boolean isNetwork =
-                lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
-        boolean isGPS =
-                lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
-
-        if(isNetwork) {
-            lm.requestLocationUpdates(LocationManager.NETWORK_PROVIDER
-                    , 5000, 10, listener);
-            Location loc = lm.getLastKnownLocation(
-                    LocationManager.NETWORK_PROVIDER);
-            if(loc != null) {
-                lat = loc.getLatitude();
-                lng = loc.getLongitude();
-            }
-        }
-
-        if(isGPS) {
-            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER
-                    , 5000, 10, listener);
-            Location loc = lm.getLastKnownLocation(
-                    LocationManager.GPS_PROVIDER);
-            if(loc != null) {
-                lat = loc.getLatitude();
-                lng = loc.getLongitude();
-            }
-        }
-
+//        lm = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+//
+//        boolean isNetwork =
+//                lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+//        boolean isGPS =
+//                lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
+//
+//        if(isNetwork) {
+//            lm.requestLocationUpdates(LocationManager.NETWORK_PROVIDER
+//                    , 5000, 10, listener);
+//            Location loc = lm.getLastKnownLocation(
+//                    LocationManager.NETWORK_PROVIDER);
+//            if(loc != null) {
+//                lat = loc.getLatitude();
+//                lng = loc.getLongitude();
+//            }
+//        }
+//
+//        if(isGPS) {
+//            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER
+//                    , 5000, 10, listener);
+//            Location loc = lm.getLastKnownLocation(
+//                    LocationManager.GPS_PROVIDER);
+//            if(loc != null) {
+//                lat = loc.getLatitude();
+//                lng = loc.getLongitude();
+//            }
+//        }
 
     }
 
@@ -160,6 +177,6 @@ public class MapsActivity extends FragmentActivity {
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+        //mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
     }
 }
