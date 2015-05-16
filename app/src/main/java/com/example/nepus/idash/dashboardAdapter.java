@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
-public class DashboardAdapter extends BaseAdapter{
+class DashboardAdapter extends BaseAdapter{
 
     private Context mContext;
     private Button btns[];
