@@ -7,8 +7,10 @@ import android.support.v13.app.FragmentStatePagerAdapter;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 public class SystemActivity extends FragmentActivity{
@@ -41,9 +43,7 @@ public class SystemActivity extends FragmentActivity{
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.menu_add_widget, menu);
-
         menu.findItem(R.id.menu_add_item).setEnabled(viewPager.getCurrentItem() == 0);
-
         return true;
     }
 
@@ -53,13 +53,19 @@ public class SystemActivity extends FragmentActivity{
             case android.R.id.home:
                 finish();
                 return true;
-            case R.id.menu_add_item:
-                num_widget++;
-                return true;
-
+//            case R.id.menu_add_item:
+//                addWidget();
+//                return true;
         }
         return true;
     }
+
+//    public void addWidget(){
+//        final ViewGroup newView = (ViewGroup) LayoutInflater.from(this).inflate(
+//                R.layout.fragment_dashboard,getApplicationContext(),false)   ;
+//
+//        viewPager.addView(newView);
+//    }
 
     private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
         Fragment[] fragments;
@@ -68,7 +74,7 @@ public class SystemActivity extends FragmentActivity{
             super(fragmentManager);
 
             fragments = new Fragment[NUM_PAGES];
-//            fragments[0] = new
+            fragments[0] = new DashboardFragment();
             for (int i=1; i<fragments.length; ++i)
                 fragments[i] = new InformationFragment();
         }
