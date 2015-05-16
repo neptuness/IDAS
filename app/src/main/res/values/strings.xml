@@ -36,6 +36,7 @@
 
     <string name="dummy_data">-</string>
 
+<<<<<<< HEAD
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_history">HistoryActivity</string>
@@ -45,5 +46,8 @@
 
 
 
+=======
+    <string name="menu_add_widget">Add Widget</string>
+>>>>>>> 19c103ad82adf6a96f72c9b6e6210690dd39514d
 </resources>
 
