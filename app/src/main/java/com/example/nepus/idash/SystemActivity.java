@@ -12,10 +12,11 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 public class SystemActivity extends FragmentActivity{
-    private static final int NUM_PAGES = 3;
+    private static final int NUM_PAGES = 5;
 
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
+    private int num_widget = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,11 @@ public class SystemActivity extends FragmentActivity{
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.menu_add_widget, menu);
+
+        menu.findItem(R.id.menu_add_item).setEnabled(viewPager.getCurrentItem() == 0);
+
         return true;
     }
 
@@ -46,6 +52,9 @@ public class SystemActivity extends FragmentActivity{
         switch (item.getItemId()){
             case android.R.id.home:
                 finish();
+                return true;
+            case R.id.menu_add_item:
+                num_widget++;
                 return true;
 
         }
@@ -58,8 +67,9 @@ public class SystemActivity extends FragmentActivity{
         public ScreenSlidePagerAdapter(FragmentManager fragmentManager) {
             super(fragmentManager);
 
-            fragments = new Fragment[3];
-            for (int i=0; i<fragments.length; ++i)
+            fragments = new Fragment[NUM_PAGES];
+//            fragments[0] = new
+            for (int i=1; i<fragments.length; ++i)
                 fragments[i] = new InformationFragment();
         }
 

@@ -1,5 +1,6 @@
 package com.example.nepus.idash;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 
 //public class MainActivity extends FragmentActivity {
@@ -58,6 +59,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 /**
 * The launchpad activity for this sample project. This activity launches other activities that
@@ -73,6 +75,7 @@ public class MainActivity extends Activity{
         dashboard = (Button) findViewById(R.id.button_dashboard);
         setting = (Button) findViewById(R.id.button_setting);
         notification = (Button)findViewById(R.id.button_notification);
+
     }
 
     public void gotoSystem (View view){

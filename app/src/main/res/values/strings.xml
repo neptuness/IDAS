@@ -31,5 +31,7 @@
     <string name="temp_engine">Engine Oil :</string>
 
     <string name="dummy_data">-</string>
+
+    <string name="menu_add_widget">Add Widget</string>
 </resources>
 
