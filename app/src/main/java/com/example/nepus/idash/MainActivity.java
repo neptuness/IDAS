@@ -64,11 +64,14 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import notification.IDASNotificationSystem;
+
 /**
  * The launchpad activity for this sample project. This activity launches other activities that
  * demonstrate implementations of common animations.
  */
 public class MainActivity extends Activity{
+    private IDASNotificationSystem notificationSystem = IDASNotificationSystem.getInstance();
     Button dashboard,setting,notification;
 
     public void onCreate(Bundle savedInstanceState) {
@@ -98,13 +101,19 @@ public class MainActivity extends Activity{
 //        listView.setAdapter(adapter);
     }
 
+    @Override
+    protected void onDestroy() {
+        notificationSystem.removeAllNotification(this);
+        super.onDestroy();
+    }
+
     public void gotoSystem (View view){
         Intent intent = new Intent(this, SystemActivity.class);
         startActivity(intent);
     }
 
     public void gotoNotification(View view){
-        Intent intent = new Intent(this, SettingActivity.class);
+        Intent intent = new Intent(this, NotificationActivity.class);
         startActivity(intent);
     }
 
