@@ -10,7 +10,6 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_map">Maps</string>
 
-
     
     <string name="title_distance">DISTANCE</string>
     <string name="distance_total">Total distance :</string>
@@ -36,18 +35,6 @@
 
     <string name="dummy_data">-</string>
 
-<<<<<<< HEAD
-<!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_history">HistoryActivity</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-
-
-
-=======
     <string name="menu_add_widget">Add Widget</string>
->>>>>>> 19c103ad82adf6a96f72c9b6e6210690dd39514d
 </resources>
 

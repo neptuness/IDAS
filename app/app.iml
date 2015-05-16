@@ -88,22 +88,6 @@
     <orderEntry type="library" exported="" name="play-services-panorama-7.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-appindexing-7.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-wallet-7.3.0" level="project" />
-<<<<<<< HEAD
-    <orderEntry type="library" exported="" name="List-2015.1.423-trial-release-" level="project" />
-    <orderEntry type="library" exported="" name="Chart-2015.1.423-trial-release-" level="project" />
-    <orderEntry type="library" exported="" name="Primitives-2015.1.423-trial-release-" level="project" />
-    <orderEntry type="library" exported="" name="play-services-drive-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-analytics-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="Feedback-2015.1.423-trial-release-" level="project" />
-    <orderEntry type="library" exported="" name="play-services-panorama-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-appindexing-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-cast-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-22.1.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-location-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-ads-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="Input-2015.1.423-trial-release-" level="project" />
-    <orderEntry type="library" exported="" name="play-services-7.3.0" level="project" />
-=======
     <orderEntry type="library" exported="" name="play-services-drive-7.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-location-7.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-games-7.3.0" level="project" />
@@ -121,25 +105,9 @@
     <orderEntry type="library" exported="" name="play-services-nearby-7.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-safetynet-7.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-plus-7.3.0" level="project" />
->>>>>>> 19c103ad82adf6a96f72c9b6e6210690dd39514d
     <orderEntry type="library" exported="" name="android-support-v13" level="project" />
     <orderEntry type="library" exported="" name="play-services-7.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-7.3.0" level="project" />
-<<<<<<< HEAD
-    <orderEntry type="library" exported="" name="play-services-safetynet-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-appinvite-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-gcm-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-nearby-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-fitness-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="Data-2015.1.423-trial-release-" level="project" />
-    <orderEntry type="library" exported="" name="Common-2015.1.423-trial-release-" level="project" />
-    <orderEntry type="library" exported="" name="play-services-plus-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-wearable-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-appstate-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-games-7.3.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-identity-7.3.0" level="project" />
-=======
->>>>>>> 19c103ad82adf6a96f72c9b6e6210690dd39514d
   </component>
 </module>
 

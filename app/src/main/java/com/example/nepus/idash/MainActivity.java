@@ -59,15 +59,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
-<<<<<<< HEAD
-import android.widget.ListView;
-import android.widget.Toast;
-
-import java.util.ArrayList;
-import java.util.List;
-=======
 import android.widget.LinearLayout;
->>>>>>> 19c103ad82adf6a96f72c9b6e6210690dd39514d
 
 /**
 * The launchpad activity for this sample project. This activity launches other activities that
@@ -80,34 +72,10 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-<<<<<<< HEAD
-//        dashboard = (Button) findViewById(R.id.button_dashboard);
-//        setting = (Button) findViewById(R.id.button_setting);
-//        notification = (Button)findViewById(R.id.button_notification);
-
-//        ListView listView = (ListView) findViewById(R.id.listView);
-//        List<View> views = new ArrayList<View>();
-//        for (int i=0; i<10; ++i){
-//            Button btn = new Button(this);
-//            btn.setText(""+i);
-//            btn.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Button btn = (Button) v;
-//
-//                    Toast.makeText(getApplicationContext(), btn.getText().toString(), Toast.LENGTH_SHORT).show();
-//                }
-//            });
-//            views.add(btn);
-//        }
-//        ListAdaptor adapter = new ListAdaptor(views);
-//        listView.setAdapter(adapter);
-=======
         dashboard = (Button) findViewById(R.id.button_dashboard);
         setting = (Button) findViewById(R.id.button_setting);
         notification = (Button)findViewById(R.id.button_notification);
 
->>>>>>> 19c103ad82adf6a96f72c9b6e6210690dd39514d
     }
 
     public void gotoSystem (View view){
@@ -125,17 +93,10 @@ public class MainActivity extends Activity{
         startActivity(intent);
     }
 
-
     public void gotoMaps(View view){
         Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
-
-    public void gotoHistory(View view){
-        Intent intent = new Intent(this, HistoryActivity.class);
-        startActivity(intent);
-    }
-
 
 
 }

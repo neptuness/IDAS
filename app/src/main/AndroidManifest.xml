@@ -55,10 +55,6 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
-        <activity
-            android:name=".HistoryActivity"
-            android:label="@string/title_activity_history" >
-        </activity>
     </application>
 
 </manifest>
