@@ -1,4 +1,4 @@
-package notification;
+package ic.kmitl.idas.notification;
 
 import android.content.Context;
 import android.util.Log;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Random;
 
-import notification.exception.IDASNotificationNotFoundException;
+import ic.kmitl.idas.notification.exception.IDASNotificationNotFoundException;
 
 
 public class IDASNotificationSystem extends Observable{

@@ -1,4 +1,4 @@
-package notification;
+package ic.kmitl.idas.notification;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.nepus.idash.R;
 
-import notification.exception.IDASNotificationNotFoundException;
+import ic.kmitl.idas.notification.exception.IDASNotificationNotFoundException;
 
 
 public class IDASNotificationView extends RelativeLayout {

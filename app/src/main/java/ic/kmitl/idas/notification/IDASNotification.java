@@ -1,10 +1,9 @@
-package notification;
+package ic.kmitl.idas.notification;
 
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
-import android.support.v4.app.NotificationCompat;
 
 import com.example.nepus.idash.R;
 

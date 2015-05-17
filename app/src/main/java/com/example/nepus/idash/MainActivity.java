@@ -1,6 +1,12 @@
 package com.example.nepus.idash;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import ic.kmitl.idas.notification.IDASNotificationSystem;
 
 //public class MainActivity extends FragmentActivity {
 //    private static final int NUM_PAGES = 3;
@@ -68,7 +74,12 @@ import java.util.List;
 import notification.IDASNotificationSystem;
 
 
+/**
+ * The launchpad activity for this sample project. This activity launches other activities that
+ * demonstrate implementations of common animations.
+ */
 public class MainActivity extends Activity{
+    private static final String TAG = MainActivity.class.getSimpleName();
     private IDASNotificationSystem notificationSystem = IDASNotificationSystem.getInstance();
 
     public void onCreate(Bundle savedInstanceState) {
@@ -107,6 +118,7 @@ public class MainActivity extends Activity{
         Intent intent = new Intent(this, HistoryActivity.class);
         startActivity(intent);
     }
+
 
 
 
