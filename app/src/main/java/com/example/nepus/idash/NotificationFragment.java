@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import notification.IDASNotificationSystem;
+import ic.kmitl.idas.notification.IDASNotificationSystem;
 
 public class NotificationFragment extends Fragment {
     private ListView listView;

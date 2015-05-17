@@ -10,9 +10,9 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-import notification.IDASNotification;
-import notification.IDASNotificationSystem;
-import notification.IDASNotificationView;
+import ic.kmitl.idas.notification.IDASNotification;
+import ic.kmitl.idas.notification.IDASNotificationSystem;
+import ic.kmitl.idas.notification.IDASNotificationView;
 
 public class NotificationListViewAdapter extends BaseAdapter implements Observer{
 
