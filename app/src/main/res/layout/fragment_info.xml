@@ -104,7 +104,7 @@
         <!--speed category-->
         <TextView
             style="@style/Header"
-            android:text="@string/title_speed"/>
+            android:text="@string/title_velocity"/>
 
         <LinearLayout
             style="@style/LinearDetails">
@@ -127,30 +127,6 @@
             <TextView
                 style="@style/Details"
                 android:id="@+id/val_torque"
-                android:text="@string/dummy_data" />
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/LinearDetails">
-            <TextView
-                style="@style/Details"
-                android:text="@string/speed_max" />
-
-            <TextView
-                style="@style/Details"
-                android:id="@+id/val_maxSpeed"
-                android:text="@string/dummy_data" />
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/LinearDetails">
-            <TextView
-                style="@style/Details"
-                android:text="@string/speed_time100" />
-
-            <TextView
-                style="@style/Details"
-                android:id="@+id/val_timeSpeed100"
                 android:text="@string/dummy_data" />
         </LinearLayout>
 

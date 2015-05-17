@@ -58,6 +58,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -66,39 +67,13 @@ import java.util.List;
 
 import notification.IDASNotificationSystem;
 
-/**
- * The launchpad activity for this sample project. This activity launches other activities that
- * demonstrate implementations of common animations.
- */
+
 public class MainActivity extends Activity{
     private IDASNotificationSystem notificationSystem = IDASNotificationSystem.getInstance();
-    Button dashboard,setting,notification;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        dashboard = (Button) findViewById(R.id.button_dashboard);
-//        setting = (Button) findViewById(R.id.button_setting);
-//        notification = (Button)findViewById(R.id.button_notification);
-
-//        ListView listView = (ListView) findViewById(R.id.listView);
-//        List<View> views = new ArrayList<View>();
-//        for (int i=0; i<10; ++i){
-//            Button btn = new Button(this);
-//            btn.setText(""+i);
-//            btn.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Button btn = (Button) v;
-//
-//                    Toast.makeText(getApplicationContext(), btn.getText().toString(), Toast.LENGTH_SHORT).show();
-//                }
-//            });
-//            views.add(btn);
-//        }
-//        ListAdaptor adapter = new ListAdaptor(views);
-//        listView.setAdapter(adapter);
     }
 
     @Override

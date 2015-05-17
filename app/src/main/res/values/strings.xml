@@ -10,28 +10,26 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_map">Maps</string>
 
-    
-    <string name="title_distance">DISTANCE</string>
+    <string name="title_distance">Distance</string>
     <string name="distance_total">Total distance :</string>
     <string name="distance_sinceStart">Since engine start :</string>
     <string name="distance_timeStart">Time since engine start :</string>
 
-    <string name="title_energy">ENERGY</string>
+    <string name="title_energy">Energy</string>
     <string name="energy_fuel">Remaining fuel :</string>
     <string name="energy_distance">Remaining distance :</string>
     <string name="energy_rate">Fuel Eco./Con. :</string>
     <string name="energy_pressure">Fuel pressure :</string>
 
-    <string name="title_speed">SPEED</string>
+    <string name="title_velocity">Velocity</string>
+    <string name="speed_velocity">Velocity : </string>
     <string name="speed_rpm">RPM :</string>
     <string name="speed_torque">Torque :</string>
-    <string name="speed_max">Max speed :</string>
-    <!--unit of velocity depends on setting whether km or mile-->
-    <string name="speed_time100">Time speed (0 - 100 km/hr) :</string>
 
-    <string name="title_temperature">TEMPERATURE</string>
+    <string name="title_temperature">Temperature</string>
     <string name="temp_coolant">Coolant :</string>
     <string name="temp_engine">Engine Oil :</string>
+    <string name="temp_MAF">Mass Air Flow (MAF) :</string>
 
     <string name="dummy_data">-</string>
 

@@ -3,9 +3,33 @@
     android:orientation="vertical"
     style="@style/Theme">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emptyContent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_margin="30dp"
+            android:text="waiting for widget"/>
+        </LinearLayout>
+
     <TextView
         style="@style/Header"
-        android:text="@string/title_speed"/>
+        android:text="@string/title_velocity"/>
+
+    <LinearLayout
+        style="@style/LinearDetails">
+        <TextView
+            style="@style/Details"
+            android:text="@string/speed_velocity" />
+
+        <TextView
+            style="@style/Details"
+            android:id="@+id/val_speed"
+            android:text="@string/dummy_data" />
+    </LinearLayout>
 
     <LinearLayout
         style="@style/LinearDetails">
@@ -31,15 +55,5 @@
             android:text="@string/dummy_data" />
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/LinearDetails">
-        <TextView
-            style="@style/Details"
-            android:text="@string/speed_max" />
 
-        <TextView
-            style="@style/Details"
-            android:id="@+id/val_maxSpeed"
-            android:text="@string/dummy_data" />
-    </LinearLayout>
 </LinearLayout>
