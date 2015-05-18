@@ -41,7 +41,43 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_setting">Setting</string>
 
+    <string-array name="TempUnit">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+
+
+    <string-array name="SpeedUnit">
+        <item>Km/Hr</item>
+        <item>Mile/Hr</item>
+    </string-array>
+
+    <string-array name="UMode">
+        <item>ECO</item>
+        <item>SPORT</item>
+        <item>CUSTOM</item>
+    </string-array>
+
+    <string-array name="ValTempUnit">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+
+    <string-array name="ValSpeedUnit">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="ValUMode">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 
 </resources>
 

@@ -68,7 +68,14 @@
         <activity android:name=".NotificationActivity"
             android:label="@string/title_activity_notification">
 
-            </activity>
+        </activity>
+
+        <activity
+            android:name=".SettingActivity2"
+            android:label="@string/title_activity_setting" >
+
+        </activity>
+
 
     </application>
 

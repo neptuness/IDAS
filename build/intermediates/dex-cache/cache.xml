@@ -2,207 +2,207 @@
 <items version="2" >
 
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-f4f2921b9e1081d5303b3cfc8c02436e58b40116.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-018d092b2ea3225f3b47c063ae2c2a5bb9fcff84.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-39abd01974a18e2952c9a7dd0446eb7c5da63ff3.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-c2f64b57bbeef45c295225b2b9ec769186d392d1.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/libs/android-support-v13.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0a0cf96dabecd7b65a3638a229e7bdb42e6b0a77">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/android-support-v13-5928c660238965e15542760593ee7f890d42290e.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Primitives-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b640497b8ea9e0b62e7f63d0f5175b9eb4d11e2">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-93f7ca86f3aa1f5033a99d68c59005e8c388434d.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-e2b4da32293c756cd75236a0d4bb53754f339b27.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-0f6fe1278f4172a0a8c97f44c51b82468382605f.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Chart-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d2cd672a3e5f2866dc08c8a9e2065461fa29a920">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2cc2ff490ca2e8a9c0a4731ee7c170d2265d6aaf.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-32e8b4332aa151a35010a7d1c73f134ee1c8391c.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-9a0c80b33951911c84833e5fff170a8f057eab64.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2fb8506b57befc1f968a07a36cde36291ed01762.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Data-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e7df79b0b859d5e1cd3f528bfef399bc12704fb8">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-cbf8d98952101bf5eb61029b7eaa7a57431b3e92.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-77c320a41b7694698367c35a704818365f0bfce3.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-259ab05758dd57c6bed8f2e064a1f5ada2e3a718.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-6a28f1044eb04203b2c68db144626a69ca9a51a9.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-0dab464538e410fa10dda3216967fd2a5db35722.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-98da3524e74999993c07d0aae073f9fed56b5f43.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/List-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b5bfa7c2059cddfc6d1f437c1f7388ea776df0c0">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-69b9ecfff6f6880daa2bdaa3cb52681fdfb80c79.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Feedback-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="408db6de0cc66285135565bf84661fd030270adc">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-7b7a8bdcbb02e5d6b4fe1fe2be0bf03bc0216c3d.jar" />
-    </item>
-    <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-d0eb1af67e8896dcc26ba15503da980210a99e59.jar" />
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2c0c7d26c99bbca70d9b4b32bcd07dfaf340b340.jar" />
     </item>
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-fb2241e06e9b7124fdf97501d3f59da44ae14880.jar" />
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-ce8868dc5f73573fd8112ff81f9a2a707e4687b3.jar" />
     </item>
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Common-2015.1.423-trial-release/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Data-2015.1.423-trial-release/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="db8c7997c7beeaf01972aa37eff7507cd382e3e4">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-1210eb3e6c37b12feb159bf85b449286f629aa90.jar" />
+        sha1="e7df79b0b859d5e1cd3f528bfef399bc12704fb8">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-cb3193c7bb00099d8c7ef5687e13b989a52bb97c.jar" />
     </item>
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Chart-2015.1.423-trial-release/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-5b9ec92cfd821be17befec5eb103bcc6a3f52e3d.jar" />
+        sha1="d2cd672a3e5f2866dc08c8a9e2065461fa29a920">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-5e29ff05d4343f0599fd2e79e6e20748e300f08d.jar" />
     </item>
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="565a01f90f1529f73362707c4c185d0623a68782">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-86b40cd68bfe5b7f90949468567247c5a4137b97.jar" />
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-c41d13c6e0f739a2cc81568ba3201c730946edf9.jar" />
     </item>
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-f581e1b5edfb109ea8643f6c36b6de9e64281fba.jar" />
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-4cd208207658583f595285eadf410f7b9ac355e2.jar" />
     </item>
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-6fb56c5b62de6bac795741e4b3b363b9baa1485c.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-30cadb9afb973656d9d2574f5965af3704f79b23.jar" />
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-b39817a647e10ec8c1bf966519d2f0b709af8bfd.jar" />
     </item>
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Input-2015.1.423-trial-release/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-cdeb3c644e189cb5672b937d81a0b4b4db0e7a99.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Feedback-2015.1.423-trial-release/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="408db6de0cc66285135565bf84661fd030270adc">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-0956ecb96c8bde7f24a93e061153f7c9ea5d12fa.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Input-2015.1.423-trial-release/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2d6c98dfbe4924d52fa557168e3846dfcdee8d47">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-0e3690cbb7d045e92290b5088e540c8d005d77c9.jar" />
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-4fbef7d1a568dbf4df03e6804020d5372ee4bd34.jar" />
     </item>
     <item
-        jar="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/classes.jar"
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-1b7c7d6451b1c0733fe72898446cf2d292e95f99.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Common-2015.1.423-trial-release/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db8c7997c7beeaf01972aa37eff7507cd382e3e4">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-d132294fb26af175f897123f8ad47b7033f22f79.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-9e640867e3de660d06f5d8b29b24cd787cc82860.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-33cd483dd89972c8fecabfd7056d8e455bc318cb.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-8a55856cae4e8f1d8b240bc4df35e17d900728a4.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a0cf96dabecd7b65a3638a229e7bdb42e6b0a77">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/android-support-v13-f8618528e5fc4f3dab3ad6e44067d484d8d61c54.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-819769a3970634c0133a0c8504e531a705e2215e.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-073318228c2b5325b5049724e75c46d32d29b980.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-dcbd19ffa2e1096111f361a7928e556fc816fd96.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/List-2015.1.423-trial-release/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5bfa7c2059cddfc6d1f437c1f7388ea776df0c0">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-a61afee12014aa3f3014eb91ca02ef33388c3abb.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Primitives-2015.1.423-trial-release/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b640497b8ea9e0b62e7f63d0f5175b9eb4d11e2">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2bdfec899024e686c384f660d9cf32295060b65b.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-e08f33dfd73e64064a33a7f33a05caced84222b2.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-c7655ac2ae82f08d38a0fa90694e3c3234003d6f.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-0eb716bc49c7c9ddde7ae4ab94748bd04ee86ffa.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-ecd26cea5dff894d158203f8c501bd0be60018ab.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-4abb501c1c4e7401e3a8ea1a36347a859907d8ca.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2e11ee933d9129c4c66ea0099f97f3f065c13f3f.jar" />
+    </item>
+    <item
+        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
-        <dex dex="/Users/NEPUS/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2ce51076218ea4318a9dc60a656111324fc11e0a.jar" />
+        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-940d3c3b8e2a0d62667803272daf3a942320306b.jar" />
     </item>
 
 </items>

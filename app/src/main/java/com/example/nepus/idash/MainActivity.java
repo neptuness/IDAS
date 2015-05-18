@@ -71,8 +71,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-import notification.IDASNotificationSystem;
-
 
 /**
  * The launchpad activity for this sample project. This activity launches other activities that
@@ -104,7 +102,7 @@ public class MainActivity extends Activity{
     }
 
     public void gotoSetting(View view){
-        Intent intent = new Intent(this, SettingActivity.class);
+        Intent intent = new Intent(this, SettingActivity2.class);
         startActivity(intent);
     }
 
