@@ -10,6 +10,7 @@
     <com.example.nepus.idash.ArcProgress
         android:id="@+id/coolant_progress"
         custom:arc_bottom_text="Coolant temperature"
+        custom:arc_suffix_text="o"
         style="@style/Big_widget"
         />
 
@@ -26,7 +27,7 @@
         <TextView
             style="@style/Details"
             android:id="@+id/val_speed"
-            android:text="@string/dummy_data" />
+            android:text="89 celcius" />
     </LinearLayout>
 
     <LinearLayout
@@ -38,7 +39,7 @@
         <TextView
             style="@style/Details"
             android:id="@+id/val_rpm"
-            android:text="@string/dummy_data" />
+            android:text="95 celcius" />
     </LinearLayout>
 
     <LinearLayout
@@ -50,7 +51,7 @@
         <TextView
             style="@style/Details"
             android:id="@+id/val_torque"
-            android:text="@string/dummy_data" />
+            android:text="3 million arce-feet" />
     </LinearLayout>
 
 

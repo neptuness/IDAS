@@ -1,6 +1,5 @@
 package com.example.nepus.idash;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,11 +9,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
-import android.widget.ProgressBar;
-import android.widget.Toast;
-
-import java.util.Timer;
-import java.util.TimerTask;
 
 
 /**
@@ -24,7 +18,7 @@ public class DashboardFragment extends Fragment {
 
     private GridView gridView;
     private ViewGroup rootView;
-    private ArcProgress coolantProgress, engineProgress, rpmProgress,torqueProgress,thProgress,mafProgress;
+    private ArcProgress coolantProgress, engineProgress, rpmProgress,torqueProgress, throttleProgress,mafProgress;
 
 
     public DashboardFragment() { }
@@ -50,15 +44,15 @@ public class DashboardFragment extends Fragment {
         engineProgress= (ArcProgress) rootView.findViewById(R.id.engine_temp);
         rpmProgress= (ArcProgress) rootView.findViewById(R.id.rpm_progress);
         torqueProgress= (ArcProgress) rootView.findViewById(R.id.torque_progress);
-        thProgress= (ArcProgress) rootView.findViewById(R.id.th_progress);
+        throttleProgress = (ArcProgress) rootView.findViewById(R.id.th_progress);
         mafProgress= (ArcProgress) rootView.findViewById(R.id.MAF_progress);
 
-        coolantProgress.setMax(150);
+        coolantProgress.setMax(100);
         engineProgress.setMax(150);
-        rpmProgress.setMax(8000);
-        torqueProgress.setMax(8000);
-        thProgress.setMax(500);
-        mafProgress.setMax(3000);
+        rpmProgress.setMax(7000);
+        torqueProgress.setMax(80);
+        throttleProgress.setMax(100);
+        mafProgress.setMax(12);
 
         return rootView;
     }
@@ -79,8 +73,8 @@ public class DashboardFragment extends Fragment {
         return torqueProgress;
     }
 
-    public ArcProgress getThProgress(){
-        return thProgress;
+    public ArcProgress getThrottleProgress(){
+        return throttleProgress;
     }
 
     public ArcProgress getMAFProgress(){
