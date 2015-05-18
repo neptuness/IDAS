@@ -30,8 +30,6 @@ public class InformationFragment extends Fragment {
 
         rpm = (TextView) rootView.findViewById(R.id.val_rpm);
         torque = (TextView) rootView.findViewById(R.id.val_torque);
-        max_speed = (TextView) rootView.findViewById(R.id.val_maxSpeed);
-        fastest_timeSpeed = (TextView) rootView.findViewById(R.id.val_timeSpeed100);
 
         temp_coolant = (TextView) rootView.findViewById(R.id.val_coolantTemp);
         temp_engine  = (TextView) rootView.findViewById(R.id.val_engineTemp);

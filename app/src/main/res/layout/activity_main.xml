@@ -1,48 +1,51 @@
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF060031"
+    android:background="#ff212121"
+    android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity$PlaceholderFragment">
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_dashboard"
-        android:id="@+id/button_dashboard"
-        android:layout_below="@+id/button_maps"
+    >
+    <ImageButton
+        android:layout_width="250dip"
+        android:layout_height="250dip"
+        android:background="@drawable/btn_dashboard"
+        android:id="@+id/imgBtn_dashboard"
         android:onClick="gotoSystem"
         />
-    <Button
-        android:layout_width="match_parent"
+
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title_notification"
-        android:id="@+id/button_notification"
-        android:layout_below="@+id/button_dashboard"
-        android:onClick="gotoNotification"/>
+        android:orientation="horizontal">
+        <ImageButton
+            style="@style/ImageButton"
+            android:background="@drawable/btn_map"
+            android:id="@+id/button_history"
+            android:onClick="gotoHistory"
+            />
+
+        <ImageButton
+            style="@style/ImageButton"
+            android:background="@drawable/btn_notification"
+            android:id="@+id/button_notification"
+            android:onClick="gotoNotification"/>
+
+        <ImageButton
+            style="@style/ImageButton"
+            android:background="@drawable/btn_setting"
+            android:id="@+id/button_setting"
+            android:onClick="gotoSetting"/>
+
+        </LinearLayout>
+
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_settings"
-        android:id="@+id/button_setting"
-        android:layout_below="@+id/button_notification"
-        android:onClick="gotoSetting"/>
-    <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_map"
         android:id="@+id/button_maps"
         android:onClick="gotoMaps"
         />
 
-    <Button
-        android:layout_below="@+id/button_setting"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_history"
-        android:id="@+id/button_history"
-        android:onClick="gotoHistory"
-        />
 
-</RelativeLayout>
+</LinearLayout>
