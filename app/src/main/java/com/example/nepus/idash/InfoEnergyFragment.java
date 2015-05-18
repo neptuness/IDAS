@@ -14,6 +14,7 @@ import android.view.ViewGroup;
  */
 public class InfoEnergyFragment extends Fragment{
     private ViewGroup rootView;
+    private ArcProgress fuelProgress;
 
     public InfoEnergyFragment() {}
 
@@ -30,11 +31,12 @@ public class InfoEnergyFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = (ViewGroup) inflater.inflate(R.layout.fragment_energy_details,container,false);
-
-//        final ViewGroup newView = (ViewGroup) LayoutInflater.from(getActivity()).inflate(
-//                R.layout.fragment_dashboard, container, false);
-//
-//        rootView.addView(newView,0);
+        fuelProgress = (ArcProgress) rootView.findViewById(R.id.fuel_progress);
+        fuelProgress.setMax(100);
         return rootView;
+    }
+
+    public ArcProgress getFuelProgress(){
+        return fuelProgress;
     }
 }
