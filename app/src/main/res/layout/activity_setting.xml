@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Unit">
+
+        <ListPreference
+
+            android:entries="@array/UMode"
+            android:entryValues="@array/ValUMode"
+            android:key="ModePref"
+            android:summary="Select mode"
+            android:title="Setting Mode"
+            android:defaultValue="1"
+            />
+
+        <EditTextPreference
+            android:dialogTitle="Speed"
+            android:key="Speedlimit"
+            android:inputType="number"
+            android:summary="Set speed limit"
+            android:title="Speed"
+            android:dependency="ModePref"
+            />
+
+        <EditTextPreference
+            android:dialogTitle="RPM"
+            android:inputType="number"
+            android:key="RPMlimit"
+            android:summary="Set RPM limit"
+            android:title="RPM"
+            />
+
+        <EditTextPreference
+            android:dialogTitle="Coolant"
+            android:key="Coolantlimit"
+            android:inputType="number"
+            android:summary="Set coolant limit"
+            android:title="Coolant"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Unit">
+
+        <ListPreference
+
+            android:entries="@array/TempUnit"
+            android:entryValues="@array/ValTempUnit"
+            android:key="TempUPref"
+            android:summary="Select Temperature unit"
+            android:title="Temperature Unit"
+            android:defaultValue="1"
+            />
+
+        <ListPreference
+
+            android:entries="@array/SpeedUnit"
+            android:entryValues="@array/ValSpeedUnit"
+            android:key="SpeedUPref"
+            android:summary="Select speed unit"
+            android:title="Speed Unit"
+            android:defaultValue="1"
+            />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Reset Setting">
+        <Preference android:title="Reset to Default"
+            android:key="BReset"/>
+        </PreferenceCategory>
+</PreferenceScreen>
