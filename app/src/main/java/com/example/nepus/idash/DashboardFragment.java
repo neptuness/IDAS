@@ -1,5 +1,6 @@
 package com.example.nepus.idash;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,6 +10,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ProgressBar;
+import android.widget.Toast;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 
 /**
@@ -18,6 +24,8 @@ public class DashboardFragment extends Fragment {
 
     private GridView gridView;
     private ViewGroup rootView;
+    private ArcProgress coolantProgress, engineProgress, rpmProgress,torqueProgress,thProgress,mafProgress;
+
 
     public DashboardFragment() { }
 
@@ -33,11 +41,51 @@ public class DashboardFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        rootView = (ViewGroup) inflater.inflate(R.layout.fragment_dashboard,container,false);
+        rootView = (ViewGroup) inflater.inflate(R.layout.fragment_dashboard_widgets,container,false);
+//
+//        gridView = (GridView) rootView.findViewById(R.id.gridview);
+//        gridView.setAdapter(new DashboardAdapter(getActivity(),6));
 
-        gridView = (GridView) rootView.findViewById(R.id.gridview);
-        gridView.setAdapter(new DashboardAdapter(getActivity(),6));
+        coolantProgress= (ArcProgress) rootView.findViewById(R.id.coolant_temp);
+        engineProgress= (ArcProgress) rootView.findViewById(R.id.engine_temp);
+        rpmProgress= (ArcProgress) rootView.findViewById(R.id.rpm_progress);
+        torqueProgress= (ArcProgress) rootView.findViewById(R.id.torque_progress);
+        thProgress= (ArcProgress) rootView.findViewById(R.id.th_progress);
+        mafProgress= (ArcProgress) rootView.findViewById(R.id.MAF_progress);
+
+        coolantProgress.setMax(150);
+        engineProgress.setMax(150);
+        rpmProgress.setMax(8000);
+        torqueProgress.setMax(8000);
+        thProgress.setMax(500);
+        mafProgress.setMax(3000);
 
         return rootView;
     }
+
+    public ArcProgress getCoolantProgress(){
+        return coolantProgress;
+    }
+
+    public ArcProgress getEngineProgress(){
+        return engineProgress;
+    }
+
+    public ArcProgress getRPMProgress(){
+        return rpmProgress;
+    }
+
+    public ArcProgress getTorqueProgress(){
+        return torqueProgress;
+    }
+
+    public ArcProgress getThProgress(){
+        return thProgress;
+    }
+
+    public ArcProgress getMAFProgress(){
+        return mafProgress;
+    }
+
+
 }

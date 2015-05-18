@@ -35,11 +35,31 @@
         <item name="android:layout_marginRight">20dp</item>
     </style>
 
+    <style name="LinearHorizontal">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
     <style name="ImageButton">
         <item name="android:layout_height">80dip</item>
         <item name="android:layout_width">80dip</item>
         <item name="android:layout_marginTop">90dp</item>
         <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="Small_widgets">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="Big_widget">
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_width">250dp</item>
     </style>
 
 </resources>

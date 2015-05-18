@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    style="@style/Theme"
+    android:gravity="center"
+    tools:context=".MyActivity">
+
+    <LinearLayout style="@style/LinearHorizontal">
+
+        <com.example.nepus.idash.ArcProgress
+            android:id="@+id/coolant_temp"
+            custom:arc_bottom_text="Coolant"
+            style="@style/Small_widgets"
+            />
+
+        <com.example.nepus.idash.ArcProgress
+            android:id="@+id/engine_temp"
+            custom:arc_bottom_text="Engine Temp"
+            style="@style/Small_widgets"
+            />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearHorizontal">
+
+        <com.example.nepus.idash.ArcProgress
+            android:id="@+id/rpm_progress"
+            custom:arc_bottom_text="RPM"
+            style="@style/Small_widgets"
+            />
+
+        <com.example.nepus.idash.ArcProgress
+            android:id="@+id/torque_progress"
+            custom:arc_bottom_text="Torque"
+            style="@style/Small_widgets"
+            />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearHorizontal">
+
+        <com.example.nepus.idash.ArcProgress
+            android:id="@+id/th_progress"
+            custom:arc_bottom_text="Tho..."
+            style="@style/Small_widgets"
+            />
+
+        <com.example.nepus.idash.ArcProgress
+            android:id="@+id/MAF_progress"
+            custom:arc_bottom_text="MAF"
+            style="@style/Small_widgets"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

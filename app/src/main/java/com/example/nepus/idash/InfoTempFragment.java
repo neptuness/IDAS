@@ -16,6 +16,7 @@ public class InfoTempFragment extends Fragment {
     public InfoTempFragment() {}
 
     private ViewGroup rootView;
+    private ArcProgress coolTemp;
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
@@ -30,11 +31,12 @@ public class InfoTempFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = (ViewGroup) inflater.inflate(R.layout.fragment_temp_details,container,false);
-
-//        final ViewGroup newView = (ViewGroup) LayoutInflater.from(getActivity()).inflate(
-//                R.layout.fragment_dashboard, container, false);
-//
-//        rootView.addView(newView,0);
+        coolTemp = (ArcProgress) rootView.findViewById(R.id.coolant_progress);
+        coolTemp.setMax(150);
         return rootView;
+    }
+
+    public ArcProgress getCoolantProgress(){
+        return coolTemp;
     }
 }
