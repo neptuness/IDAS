@@ -10,7 +10,8 @@
     <com.example.nepus.idash.ArcProgress
         android:id="@+id/fuel_progress"
         custom:arc_bottom_text="Remaining fuel"
-        custom:arc_suffix_text="%"
+
+        custom:arc_suffix_text=" %"
         style="@style/Big_widget"
         />
 

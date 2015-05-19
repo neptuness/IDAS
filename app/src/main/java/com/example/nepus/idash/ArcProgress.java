@@ -30,12 +30,11 @@ public class ArcProgress extends View {
     private int finishedStrokeColor;
     private int unfinishedStrokeColor;
     private float arcAngle;
-    private String suffixText = "%";
+    private String suffixText = " ";
     private float suffixTextPadding;
 
     private float arcBottomHeight;
 
-    private final int default_finished_color = Color.WHITE;
     private final int default_unfinished_color = Color.rgb(72, 106, 176);
     private final int default_text_color = Color.rgb(66, 145, 241);
     private final float default_suffix_text_size;
@@ -43,8 +42,6 @@ public class ArcProgress extends View {
     private final float default_bottom_text_size;
     private final float default_stroke_width;
     private final String default_suffix_text;
-    private final int default_max = 100;
-    private final float default_arc_angle = 360 * 0.8f;
     private float default_text_size;
     private final int min_size;
 
@@ -91,12 +88,15 @@ public class ArcProgress extends View {
     }
 
     protected void initByAttributes(TypedArray attributes) {
+        int default_finished_color = Color.WHITE;
         finishedStrokeColor = attributes.getColor(R.styleable.ArcProgress_arc_finished_color, default_finished_color);
         unfinishedStrokeColor = attributes.getColor(R.styleable.ArcProgress_arc_unfinished_color, default_unfinished_color);
         textColor = attributes.getColor(R.styleable.ArcProgress_arc_text_color, default_text_color);
         textSize = attributes.getDimension(R.styleable.ArcProgress_arc_text_size, default_text_size);
+        float default_arc_angle = 360 * 0.8f;
         arcAngle = attributes.getDimension(R.styleable.ArcProgress_arc_angle, default_arc_angle);
 
+        int default_max = 100;
         setMax(attributes.getInt(R.styleable.ArcProgress_arc_max, default_max));
         setProgress(attributes.getInt(R.styleable.ArcProgress_arc_progress, 0));
 
@@ -132,28 +132,28 @@ public class ArcProgress extends View {
         return strokeWidth;
     }
 
-    public void setStrokeWidth(float strokeWidth) {
-        this.strokeWidth = strokeWidth;
-        this.invalidate();
-    }
+//    public void setStrokeWidth(float strokeWidth) {
+//        this.strokeWidth = strokeWidth;
+//        this.invalidate();
+//    }
 
     public float getSuffixTextSize() {
         return suffixTextSize;
     }
 
-    public void setSuffixTextSize(float suffixTextSize) {
-        this.suffixTextSize = suffixTextSize;
-        this.invalidate();
-    }
+//    public void setSuffixTextSize(float suffixTextSize) {
+//        this.suffixTextSize = suffixTextSize;
+//        this.invalidate();
+//    }
 
     public String getBottomText() {
         return bottomText;
     }
 
-    public void setBottomText(String bottomText) {
-        this.bottomText = bottomText;
-        this.invalidate();
-    }
+//    public void setBottomText(String bottomText) {
+//        this.bottomText = bottomText;
+//        this.invalidate();
+//    }
 
     public int getProgress() {
         return progress;
@@ -182,73 +182,73 @@ public class ArcProgress extends View {
         return bottomTextSize;
     }
 
-    public void setBottomTextSize(float bottomTextSize) {
-        this.bottomTextSize = bottomTextSize;
-        this.invalidate();
-    }
+//    public void setBottomTextSize(float bottomTextSize) {
+//        this.bottomTextSize = bottomTextSize;
+//        this.invalidate();
+//    }
 
     public float getTextSize() {
         return textSize;
     }
 
-    public void setTextSize(float textSize) {
-        this.textSize = textSize;
-        this.invalidate();
-    }
+//    public void setTextSize(float textSize) {
+//        this.textSize = textSize;
+//        this.invalidate();
+//    }
 
     public int getTextColor() {
         return textColor;
     }
 
-    public void setTextColor(int textColor) {
-        this.textColor = textColor;
-        this.invalidate();
-    }
+//    public void setTextColor(int textColor) {
+//        this.textColor = textColor;
+//        this.invalidate();
+//    }
 
     public int getFinishedStrokeColor() {
         return finishedStrokeColor;
     }
 
-    public void setFinishedStrokeColor(int finishedStrokeColor) {
-        this.finishedStrokeColor = finishedStrokeColor;
-        this.invalidate();
-    }
+//    public void setFinishedStrokeColor(int finishedStrokeColor) {
+//        this.finishedStrokeColor = finishedStrokeColor;
+//        this.invalidate();
+//    }
 
     public int getUnfinishedStrokeColor() {
         return unfinishedStrokeColor;
     }
 
-    public void setUnfinishedStrokeColor(int unfinishedStrokeColor) {
-        this.unfinishedStrokeColor = unfinishedStrokeColor;
-        this.invalidate();
-    }
+//    public void setUnfinishedStrokeColor(int unfinishedStrokeColor) {
+//        this.unfinishedStrokeColor = unfinishedStrokeColor;
+//        this.invalidate();
+//    }
 
     public float getArcAngle() {
         return arcAngle;
     }
 
-    public void setArcAngle(float arcAngle) {
-        this.arcAngle = arcAngle;
-        this.invalidate();
-    }
+//    public void setArcAngle(float arcAngle) {
+//        this.arcAngle = arcAngle;
+//        this.invalidate();
+//    }
 
     public String getSuffixText() {
         return suffixText;
     }
 
-    public void setSuffixText(String suffixText) {
-        this.suffixText = suffixText;
-        this.invalidate();
-    }
+//    public void setSuffixText(String suffixText) {
+//        this.suffixText = suffixText;
+//        this.invalidate();
+//    }
 
     public float getSuffixTextPadding() {
         return suffixTextPadding;
     }
 
-    public void setSuffixTextPadding(float suffixTextPadding) {
-        this.suffixTextPadding = suffixTextPadding;
-        this.invalidate();
-    }
+//    public void setSuffixTextPadding(float suffixTextPadding) {
+//        this.suffixTextPadding = suffixTextPadding;
+//        this.invalidate();
+//    }
 
     @Override
     protected int getSuggestedMinimumHeight() {
@@ -262,23 +262,24 @@ public class ArcProgress extends View {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        setMeasuredDimension(widthMeasureSpec, heightMeasureSpec);
         rectF.set(strokeWidth / 2f, strokeWidth / 2f, MeasureSpec.getSize(widthMeasureSpec) - strokeWidth / 2f, MeasureSpec.getSize(heightMeasureSpec) - strokeWidth / 2f);
         float radius = getWidth() / 2f;
         float angle = (360 - arcAngle) / 2f;
         arcBottomHeight = radius * (float) (1 - Math.cos(angle / 180 * Math.PI));
-        setMeasuredDimension(widthMeasureSpec, heightMeasureSpec);
+//        setMeasuredDimension(widthMeasureSpec, heightMeasureSpec);
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
         float startAngle = 270 - arcAngle / 2f;
         float finishedSweepAngle = progress / (float) getMax() * arcAngle;
-        float finishedStartAngle = startAngle;
 
         paint.setColor(unfinishedStrokeColor);
         canvas.drawArc(rectF, startAngle, arcAngle, false, paint);
         paint.setColor(finishedStrokeColor);
-        canvas.drawArc(rectF, finishedStartAngle, finishedSweepAngle, false, paint);
+        canvas.drawArc(rectF, startAngle, finishedSweepAngle, false, paint);
 
         String text = String.valueOf(getProgress());
         if (!TextUtils.isEmpty(text)) {

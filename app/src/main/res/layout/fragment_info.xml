@@ -10,7 +10,8 @@
         <!--Distance category-->
         <TextView
             style="@style/Header"
-            android:text="@string/title_distance" />
+            android:text="@string/title_distance"  />
+
 
         <LinearLayout style="@style/LinearDetails">
             <TextView

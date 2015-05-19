@@ -10,7 +10,7 @@
     <com.example.nepus.idash.ArcProgress
         android:id="@+id/coolant_progress"
         custom:arc_bottom_text="Coolant temperature"
-        custom:arc_suffix_text="o"
+        custom:arc_suffix_text=" o"
         style="@style/Big_widget"
         />
 

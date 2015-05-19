@@ -10,7 +10,7 @@
     <com.example.nepus.idash.ArcProgress
         android:id="@+id/speed_progress"
         custom:arc_bottom_text="SPEED"
-        custom:arc_suffix_text="km/hr"
+        custom:arc_suffix_text=" km/hr"
         style="@style/Big_widget"
         />
 

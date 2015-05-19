@@ -21,13 +21,13 @@ public class SystemActivity extends FragmentActivity{
     private InfoTempFragment infoTempFragment;
     private InfoEnergyFragment infoEnergyFragment;
 
-
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
 
     private int val_coolant, val_engine, val_rpm, val_torque, val_throttle,val_maf;
     private int val_speed, val_fuel;
 
+     private ArcProgress coolantProgress,engineProgress,rpmProgress,torqueProgress,thProgress,mafProgress,speedProgress,fuelProgress,tempProgress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,14 +46,7 @@ public class SystemActivity extends FragmentActivity{
             }
         });
 
-        val_coolant = 89;
-        val_engine = 94;
-        val_rpm = 4500;
-        val_maf = 3;
-        val_throttle = 60;
-        val_torque = 40;
-        val_speed = 160;
-        val_fuel = 75;
+        initVal();
 
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
@@ -62,55 +55,81 @@ public class SystemActivity extends FragmentActivity{
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        ArcProgress coolantProgress = dashboardFragment.getCoolantProgress();
-                        ArcProgress engineProgress = dashboardFragment.getEngineProgress();
-                        ArcProgress rpmProgress = dashboardFragment.getRPMProgress();
-                        ArcProgress torqueProgress = dashboardFragment.getTorqueProgress();
-                        ArcProgress thProgress = dashboardFragment.getThrottleProgress();
-                        ArcProgress mafProgress = dashboardFragment.getMAFProgress();
-
-                        if (coolantProgress.getProgress() < val_coolant)
-                            coolantProgress.setProgress(coolantProgress.getProgress() + 1);
-
-                        if (engineProgress.getProgress() < val_engine)
-                            engineProgress.setProgress(engineProgress.getProgress() + 1);
-
-                        if (rpmProgress.getProgress() < 8000)
-                            rpmProgress.setProgress(rpmProgress.getProgress() + 100);
-
-                        if (torqueProgress.getProgress() < val_torque)
-                            torqueProgress.setProgress(torqueProgress.getProgress() + 1);
-
-                        if (thProgress.getProgress() < 120)
-                            thProgress.setProgress(thProgress.getProgress() + 1);
-
-                        if (mafProgress.getProgress() < val_maf)
-                            mafProgress.setProgress(mafProgress.getProgress() + 1);
-
-                        ArcProgress speedProgress = infoSpeedFragment.getSpeedProgress();
-
-                        if (speedProgress.getProgress() < 400)
-                            speedProgress.setProgress(speedProgress.getProgress() + 1);
-
-                        ArcProgress fuelProgress = infoEnergyFragment.getFuelProgress();
-
-                        if (fuelProgress != null && fuelProgress.getProgress() < val_fuel)
-                            fuelProgress.setProgress(fuelProgress.getProgress() + 1);
-
-                        ArcProgress tempProgress = infoTempFragment.getCoolantProgress();
-
-                        if (tempProgress != null && tempProgress.getProgress() < val_coolant)
-                            tempProgress.setProgress(tempProgress.getProgress() + 1);
-
-
-
-
-
+                        createProgress();
+                        callProgress(coolantProgress,val_coolant,1);
+                        callProgress(engineProgress,val_engine,1);
+                        callProgress(rpmProgress,val_rpm,100);
+                        callProgress(torqueProgress,val_torque,1);
+                        callProgress(thProgress,val_throttle,1);
+                        callProgress(mafProgress,val_maf,1);
+                        callProgress(speedProgress,val_speed,1);
+                        callProgress(fuelProgress,val_fuel,1);
+                        callProgress(tempProgress,val_coolant,1);
                     }
                 });
             }
         }, 1000, 100);
 
+    }
+
+    public void initVal(){
+        val_coolant = 89;
+        val_engine = 94;
+        val_rpm = 8000;
+        val_maf = 3;
+        val_throttle = 60;
+        val_torque = 40;
+        val_speed = 400;
+        val_fuel = 75;
+    }
+
+    public void createProgress(){
+        coolantProgress = dashboardFragment.getCoolantProgress();
+        engineProgress = dashboardFragment.getEngineProgress();
+        rpmProgress = dashboardFragment.getRPMProgress();
+        torqueProgress = dashboardFragment.getTorqueProgress();
+        thProgress = dashboardFragment.getThrottleProgress();
+        mafProgress = dashboardFragment.getMAFProgress();
+        speedProgress = infoSpeedFragment.getSpeedProgress();
+        fuelProgress = infoEnergyFragment.getFuelProgress();
+        tempProgress = infoTempFragment.getCoolantProgress();
+    }
+
+    public void callProgress(ArcProgress progress, int val, int countUp){
+        if (progress != null && progress.getProgress() < val)
+            progress.setProgress(progress.getProgress() + countUp);
+    }
+
+    public void setVal_coolant(int val_coolant) {
+        this.val_coolant = val_coolant;
+    }
+
+    public void setVal_engine(int val_engine) {
+        this.val_engine = val_engine;
+    }
+
+    public void setVal_rpm(int val_rpm) {
+        this.val_rpm = val_rpm;
+    }
+
+    public void setVal_torque(int val_torque) {
+        this.val_torque = val_torque;
+    }
+
+    public void setVal_throttle(int val_throttle) {
+        this.val_throttle = val_throttle;
+    }
+
+    public void setVal_maf(int val_maf) {
+        this.val_maf = val_maf;
+    }
+
+    public void setVal_speed(int val_speed) {
+        this.val_speed = val_speed;
+    }
+
+    public void setVal_fuel(int val_fuel) {
+        this.val_fuel = val_fuel;
     }
 
     @Override
