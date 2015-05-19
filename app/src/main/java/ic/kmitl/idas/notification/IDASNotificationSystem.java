@@ -20,7 +20,7 @@ public class IDASNotificationSystem extends Observable{
     private static IDASNotificationSystem instance = null;
 
     private IDASNotificationSystem() {
-        notificationPool = new ArrayList<IDASNotification>();
+        notificationPool = new ArrayList<>();
     }
 
 //    Use synchronized to make thread-safe singleton
