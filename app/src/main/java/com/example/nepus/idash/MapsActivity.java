@@ -1,10 +1,6 @@
 package com.example.nepus.idash;
 
-import android.content.Context;
 import android.graphics.Color;
-import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,15 +10,14 @@ import android.widget.Toast;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -33,14 +28,7 @@ public class MapsActivity extends FragmentActivity {
     public static final String DATE = MapsActivity.class.getPackage().getName() + "DATE";
 
     Marker mMarker;
-    LocationManager lm;
     private boolean layoutToggle = true;
-    private List<String> routeData = new ArrayList<>();
-    private List<String> eachRouteData = new ArrayList<>();
-    private List<String> eachValueData = new ArrayList<>();
-    private List<String> nextValueData = new ArrayList<>();
-    private boolean markerCheck;
-    private double distance;
     private Random rnd = new Random();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,79 +39,78 @@ public class MapsActivity extends FragmentActivity {
         mMap.setMyLocationEnabled(true); // Enable my location button
 
         String str = getIntent().getExtras().getString(DATE); //Get latitude,longitude from Another class
-        routeData = Arrays.asList(str.split("\\s*New Data\\s*"));
+        List<String> routeData = Arrays.asList(str.split("\\s*New Data\\s*")); // split string when find "New Data" to list
 //        Log.i("TestingX", routeData.toString());
         for(String eachLine: routeData)
         {
             if(eachLine.length()<5)
                 continue;
-            eachRouteData = Arrays.asList(eachLine.split("\\s*\n\\s*"));
+            List<String> eachRouteData = Arrays.asList(eachLine.split("\\s*\n\\s*")); // split each line to list
             PolylineOptions rectLine = new PolylineOptions();
-            markerCheck = true;
-            distance = 0;
+            boolean markerCheck = true;
+            double distance = 0;
 //            Log.i("TestingX", String.valueOf(eachRouteData.size()));
 //            Log.i("TestingX", "Here here");
 //            for(String eachValue:eachRouteData)
 //            {
             Log.i("Distance", "NewRoute");
 
-            for(int i = 0;i<eachRouteData.size();i++)
+            for(int i = 0;i< eachRouteData.size();i++)
                 {
                     String eachValue = eachRouteData.get(i);
                     String nextValue;
-                    eachValueData = Arrays.asList(eachValue.split("\\s*,\\s*"));
-                    if(i<eachRouteData.size()-1)
+                    List<String> eachValueData = Arrays.asList(eachValue.split("\\s*,\\s*")); // split string when find "," to list
+                    if(i< eachRouteData.size()-1)
                     {
-                        nextValue = eachRouteData.get(i + 1);
-                        nextValueData = Arrays.asList(nextValue.split("\\s*,\\s*"));
-                        Log.i("Lat1", eachValueData.get(0));
-                        Log.i("Lon1", eachValueData.get(1));
-                        Log.i("Lat2", nextValueData.get(0));
-                        Log.i("Lon2", nextValueData.get(1));
+                        nextValue = eachRouteData.get(i + 1); // get next value
+                        List<String> nextValueData = Arrays.asList(nextValue.split("\\s*,\\s*")); // split string when find "," to list
+//                        Log.i("Lat1", eachValueData.get(0));
+//                        Log.i("Lon1", eachValueData.get(1));
+//                        Log.i("Lat2", nextValueData.get(0));
+//                        Log.i("Lon2", nextValueData.get(1));
 
-                        distance =  distance + distanceCalculate(Double.parseDouble(eachValueData.get(0)), Double.parseDouble(eachValueData.get(1))
+                        distance =  distance + distanceCalculate(Double.parseDouble(eachValueData.get(0)), Double.parseDouble(eachValueData.get(1)) // calculate all distance
                                 ,Double.parseDouble(nextValueData.get(0)) ,Double.parseDouble(nextValueData.get(1)) );
-                        Log.i("ds", String.valueOf(distance));
+//                        Log.i("ds", String.valueOf(distance));
                     }
 
 
-                if(markerCheck && i == eachRouteData.size()-1)
+                if(markerCheck && i == eachRouteData.size()-1) // check condition to last set of data
                 {
 
-                    List<String> startValue = Arrays.asList(eachRouteData.get(0).split("\\s*,\\s*"));
-                    List<String> endValue = Arrays.asList(eachRouteData.get(eachRouteData.size() - 1).split("\\s*,\\s*"));
+                    List<String> startValue = Arrays.asList(eachRouteData.get(0).split("\\s*,\\s*")); // split string when find "," to list (only first line value)
+                    List<String> endValue = Arrays.asList(eachRouteData.get(eachRouteData.size() - 1).split("\\s*,\\s*")); // split string when find "," to list (only last line value)
                     int startTime = Integer.parseInt(startValue.get(2));
                     int stopTime = Integer.parseInt(endValue.get(2));
 
-                    distance = distance/1000;
+                    distance = distance /1000; // convert distance to km
 
-                    double driveTime = Double.parseDouble(eachValueData.get(2));
-                    mMarker = mMap.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(startValue.get(0)), Double.parseDouble(startValue.get(1))))
+                    mMarker = mMap.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(startValue.get(0)), Double.parseDouble(startValue.get(1)))) // add marker to map
                             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
                     mMarker.setTitle("StartPoint");
 
-                        mMarker.setSnippet("DriveTime: " + String.valueOf((stopTime - startTime)) + " minute"
+                        mMarker.setSnippet("DriveTime: " + String.valueOf((stopTime - startTime)) + " minute" // add information to marker
                                 + "\nDistance: " + distance + " km");
 
-                    mMarker = mMap.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(endValue.get(0)), Double.parseDouble(endValue.get(1))))
+                    mMarker = mMap.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(endValue.get(0)), Double.parseDouble(endValue.get(1)))) // add marker to map
                             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
                     mMarker.setTitle("StopPoint");
 
-                    mMarker.setSnippet("DriveTime: "+String.valueOf((stopTime-startTime)) + " minute"
+                    mMarker.setSnippet("DriveTime: "+String.valueOf((stopTime-startTime)) + " minute" // add information to marker
                             + "\nDistance: " + distance + " km");
 
                     markerCheck = false;
 
                 }
                 mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
-                        new LatLng(Double.parseDouble(eachValueData.get(0)), Double.parseDouble(eachValueData.get(1))), 19));
+                        new LatLng(Double.parseDouble(eachValueData.get(0)), Double.parseDouble(eachValueData.get(1))), 19)); //move camera to current line position
 
-                rectLine.add(new LatLng(Double.parseDouble(eachValueData.get(0)), Double.parseDouble(eachValueData.get(1))));
+                rectLine.add(new LatLng(Double.parseDouble(eachValueData.get(0)), Double.parseDouble(eachValueData.get(1)))); // add lat,lon to rectLine
             }
 
-            rectLine.color(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256)));
+            rectLine.color(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256))); //random color of polyline
 
-            mMap.addPolyline(rectLine);
+            mMap.addPolyline(rectLine); // add polyline to map
 //            Log.i("TestingX", eachRouteData.toString());
         }
 //        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
@@ -156,9 +143,9 @@ public class MapsActivity extends FragmentActivity {
         Double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
         double distance = R * c * 1000; // convert to meters
 
-        distance = Math.pow(distance, 2);
+        distance = Math.pow(distance, 2); // - Math.pow(high,2) if have a high
         distance = Math.sqrt(distance);
-        Log.i("Distance", String.valueOf(distance));
+//        Log.i("Distance", String.valueOf(distance));
         return distance;
     }
 
