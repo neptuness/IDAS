@@ -7,11 +7,8 @@ import android.support.v13.app.FragmentStatePagerAdapter;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.ViewGroup;
-import android.widget.Toast;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -28,7 +25,7 @@ public class SystemActivity extends FragmentActivity{
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
 
-    private int val_coolant, val_engine, val_rpm, val_torque, val_th,val_maf;
+    private int val_coolant, val_engine, val_rpm, val_torque, val_throttle,val_maf;
     private int val_speed, val_fuel;
 
 
@@ -49,12 +46,12 @@ public class SystemActivity extends FragmentActivity{
             }
         });
 
-        val_coolant = 100;
-        val_engine = 90;
-        val_rpm = 3500;
-        val_maf = 1500;
-        val_th = 300;
-        val_torque = 1200;
+        val_coolant = 89;
+        val_engine = 94;
+        val_rpm = 4500;
+        val_maf = 3;
+        val_throttle = 60;
+        val_torque = 40;
         val_speed = 160;
         val_fuel = 75;
 
@@ -69,7 +66,7 @@ public class SystemActivity extends FragmentActivity{
                         ArcProgress engineProgress = dashboardFragment.getEngineProgress();
                         ArcProgress rpmProgress = dashboardFragment.getRPMProgress();
                         ArcProgress torqueProgress = dashboardFragment.getTorqueProgress();
-                        ArcProgress thProgress = dashboardFragment.getThProgress();
+                        ArcProgress thProgress = dashboardFragment.getThrottleProgress();
                         ArcProgress mafProgress = dashboardFragment.getMAFProgress();
 
                         if (coolantProgress.getProgress() < val_coolant)
@@ -78,21 +75,21 @@ public class SystemActivity extends FragmentActivity{
                         if (engineProgress.getProgress() < val_engine)
                             engineProgress.setProgress(engineProgress.getProgress() + 1);
 
-                        if (rpmProgress.getProgress() < val_rpm)
+                        if (rpmProgress.getProgress() < 8000)
                             rpmProgress.setProgress(rpmProgress.getProgress() + 100);
 
                         if (torqueProgress.getProgress() < val_torque)
-                            torqueProgress.setProgress(torqueProgress.getProgress() + 100);
+                            torqueProgress.setProgress(torqueProgress.getProgress() + 1);
 
-                        if (thProgress.getProgress() < val_th)
-                            thProgress.setProgress(thProgress.getProgress() + 10);
+                        if (thProgress.getProgress() < 120)
+                            thProgress.setProgress(thProgress.getProgress() + 1);
 
                         if (mafProgress.getProgress() < val_maf)
-                            mafProgress.setProgress(mafProgress.getProgress() + 19);
+                            mafProgress.setProgress(mafProgress.getProgress() + 1);
 
                         ArcProgress speedProgress = infoSpeedFragment.getSpeedProgress();
 
-                        if (speedProgress.getProgress() < val_speed)
+                        if (speedProgress.getProgress() < 400)
                             speedProgress.setProgress(speedProgress.getProgress() + 1);
 
                         ArcProgress fuelProgress = infoEnergyFragment.getFuelProgress();

@@ -21,9 +21,6 @@ import java.util.List;
 
 public class HistoryActivity extends Activity {
 
-    CalendarView cal;
-    private String dataEachDay = "";
-    private List<String> dataList = new ArrayList<>();
     private List<String> listOfDate = new ArrayList<>();
     private boolean colorCalendar = true;
 
@@ -60,7 +57,7 @@ public class HistoryActivity extends Activity {
 //            @Override
 //            public void onSelectedDayChange(CalendarView view, int year, int month,
 //                                            int dayOfMonth) {
-//                // TODO Auto-generated method stub
+//
 //               cal.setFocusedMonthDateColor(Color.RED);
 //                Toast.makeText(getBaseContext(),"Selected Date is\n\n"
 //                                +dayOfMonth+" : "+month+" : "+year ,
@@ -79,10 +76,10 @@ public class HistoryActivity extends Activity {
 //
 ////                int tempDate = Integer.parseInt(listOfDate.get(0).substring(0, 3));
 ////                Toast.makeText( getBaseContext(),listOfDate.get(0).substring(0, 3), Toast.LENGTH_LONG).show();
-            if(colorCalendar == true) {
-                GetAvailableDateList();
-               colorCalendar = false;
-            }
+                if (colorCalendar) {
+                    GetAvailableDateList();
+                   colorCalendar = false;
+                }
                 for (String each : listOfDate) {
 
                     int tempYear = Integer.parseInt(each.substring(0, 4));
@@ -113,7 +110,7 @@ public class HistoryActivity extends Activity {
             @Override
             public void onSelectedDatesChanged(RadCalendarView.SelectionContext context) {
 
-                List<String> dateSelected = Arrays.asList((String.format("%tF", context.newSelection().get(0))).toString().split("\\s*-\\s*"));
+                List<String> dateSelected = Arrays.asList((String.format("%tF", context.newSelection().get(0))).split("\\s*-\\s*"));
 
                 Toast.makeText(getApplicationContext(), dateSelected.toString(), Toast.LENGTH_SHORT).show();
 
@@ -150,15 +147,12 @@ public class HistoryActivity extends Activity {
 //
 //    public void ReadFromText()
 //    {
-
 //        List<String> text = readRawTextFile(this, R.raw.data20150517);
 //        Log.i("TestingX", text.toString());
 //        C:\Users\Nil\Documents\IDAS
 //        "C:\\java\\thaicreate.txt";
 //        String path = "C:/Users/Nil/Documents/IDAS/20150517.txt";
-//
 //        File file = new File(path);
-//
 //        try {
 //            BufferedReader br = new BufferedReader(new FileReader(file));
 //            String line;
@@ -166,25 +160,22 @@ public class HistoryActivity extends Activity {
 //                dataEachDay += line;
 //                Log.i("TestingX", line);
 //            }
-//
 //            br.close();
-//
 //        } catch (IOException e) {
-//                    // TODO Auto-generated catch block
+//
 //            e.printStackTrace();
 //            Log.i("TestingX", String.valueOf(e));
 //        }
-
 //    }
-    public void GetAvailableByDate()
-    {
-        String Test = "asdasdsagrgesfasdasNewDataasdsadsdmaskdmasdasasdasdNewDataasdsjadmsslkdf";
+//    public void GetAvailableByDate()
+//    {
+//        String Test = "asdasdsagrgesfasdasNewDataasdsadsdmaskdmasdasasdasdNewDataasdsjadmsslkdf";
 //        dataEachDay.clear();
 //        dataEachDay = Arrays.asList(Test.split("\\s*NewData\\s*"));
 
 //        Toast.makeText( getBaseContext(),dataEachDay.toString(), Toast.LENGTH_LONG).show();
 
-    }
+//    }
 
 
     public void GetAvailableDateList()
@@ -374,8 +365,5 @@ public class HistoryActivity extends Activity {
             "13.727431, 100.778006, 52, 16, 0.00\n" +
             "13.728953, 100.777968, 52, 16, 0.00\n" +
             "13.729604, 100.778108, 53, 16, 0.00\n" ;
-
-
-
 
 }

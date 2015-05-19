@@ -10,9 +10,12 @@
         android:layout_width="250dip"
         android:layout_height="250dip"
         android:background="@drawable/btn_dashboard"
+
         android:id="@+id/imgBtn_dashboard"
         android:onClick="gotoSystem"
-        />
+        >
+
+    </ImageButton>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -38,14 +41,6 @@
             android:onClick="gotoSetting"/>
 
         </LinearLayout>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/title_map"
-        android:id="@+id/button_maps"
-        android:onClick="gotoMaps"
-        />
 
 
 </LinearLayout>

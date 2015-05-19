@@ -92,13 +92,7 @@ public class MainActivity extends Activity{
     }
 
     public void gotoSetting(View view){
-        Intent intent = new Intent(this, SettingActivity2.class);
-        startActivity(intent);
-    }
-
-
-    public void gotoMaps(View view){
-        Intent intent = new Intent(this, MapsActivity.class);
+        Intent intent = new Intent(this, SettingActivity.class);
         startActivity(intent);
     }
 

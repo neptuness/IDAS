@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">iDASH</string>
+    <string name="app_name">Intelligent Driving Assistant System</string>
 
     <string name="title_dashboard">Dashboard</string>
     <string name="title_information">Information</string>
@@ -9,6 +9,9 @@
     <string name="title_notification">Notifications</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_map">Maps</string>
+
+    <string name="title_changelayout">ChangeLayout</string>
+
 
     <string name="title_distance">Distance</string>
     <string name="distance_total">Total distance :</string>
@@ -47,7 +50,6 @@
         <item>Celsius</item>
         <item>Fahrenheit</item>
     </string-array>
-
 
 
     <string-array name="SpeedUnit">
