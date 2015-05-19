@@ -33,7 +33,7 @@ public class SettingActivity extends PreferenceActivity{
         SpeedlimitPreference = (EditTextPreference) findPreference(IDASPreferenceManager.SPEED_LIMIT);
         RPMlimitPreference = (EditTextPreference) findPreference(IDASPreferenceManager.RPM_LIMIT);
         CoolantlimitPreference = (EditTextPreference) findPreference(IDASPreferenceManager.COOLANT_LIMIT);
-        Preference DefaultPreference = findPreference("BReset");
+        Preference DefaultPreference =  findPreference(IDASPreferenceManager.DEFAULT_BUTTON);
 
         DefaultPreference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             public boolean onPreferenceClick(Preference preference) {
@@ -135,6 +135,8 @@ public class SettingActivity extends PreferenceActivity{
             actionBar.setDisplayHomeAsUpEnabled(true);
 
     }
+
+    //refresh the value when the listeners was changed and set to he summary on preference
     public void refresh(){
         String mode = IDASPreferenceManager.getPref(IDASPreferenceManager.MODE, this);
         String tempU = IDASPreferenceManager.getPref(IDASPreferenceManager.TEMP_UNIT, this);
@@ -170,7 +172,7 @@ public class SettingActivity extends PreferenceActivity{
 
     }
 
-
+    //actionbar for back to home screen
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
