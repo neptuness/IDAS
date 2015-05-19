@@ -63,7 +63,7 @@
         </activity>
 
         <activity
-            android:name=".SettingActivity2"
+            android:name=".SettingActivity"
             android:label="@string/title_activity_setting" >
 
         </activity>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-
     <PreferenceCategory android:title="Unit">
 
         <ListPreference
@@ -69,4 +68,5 @@
         <Preference android:title="Reset to Default"
             android:key="BReset"/>
         </PreferenceCategory>
+
 </PreferenceScreen>

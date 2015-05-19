@@ -2,207 +2,207 @@
 <items version="2" >
 
     <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2c0c7d26c99bbca70d9b4b32bcd07dfaf340b340.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-ce8868dc5f73573fd8112ff81f9a2a707e4687b3.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Data-2015.1.423-trial-release/classes.jar"
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\Data-2015.1.423-trial-release\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e7df79b0b859d5e1cd3f528bfef399bc12704fb8">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-cb3193c7bb00099d8c7ef5687e13b989a52bb97c.jar" />
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-613591cb29aee2a002c408ce85b3d1bbe192bd51.jar" />
     </item>
     <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Chart-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d2cd672a3e5f2866dc08c8a9e2065461fa29a920">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-5e29ff05d4343f0599fd2e79e6e20748e300f08d.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-c41d13c6e0f739a2cc81568ba3201c730946edf9.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-4cd208207658583f595285eadf410f7b9ac355e2.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-6fb56c5b62de6bac795741e4b3b363b9baa1485c.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-b39817a647e10ec8c1bf966519d2f0b709af8bfd.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-cdeb3c644e189cb5672b937d81a0b4b4db0e7a99.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Feedback-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="408db6de0cc66285135565bf84661fd030270adc">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-0956ecb96c8bde7f24a93e061153f7c9ea5d12fa.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Input-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2d6c98dfbe4924d52fa557168e3846dfcdee8d47">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-4fbef7d1a568dbf4df03e6804020d5372ee4bd34.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-1b7c7d6451b1c0733fe72898446cf2d292e95f99.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Common-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="db8c7997c7beeaf01972aa37eff7507cd382e3e4">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-d132294fb26af175f897123f8ad47b7033f22f79.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-9e640867e3de660d06f5d8b29b24cd787cc82860.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-33cd483dd89972c8fecabfd7056d8e455bc318cb.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="565a01f90f1529f73362707c4c185d0623a68782">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-8a55856cae4e8f1d8b240bc4df35e17d900728a4.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/libs/android-support-v13.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0a0cf96dabecd7b65a3638a229e7bdb42e6b0a77">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/android-support-v13-f8618528e5fc4f3dab3ad6e44067d484d8d61c54.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-819769a3970634c0133a0c8504e531a705e2215e.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-073318228c2b5325b5049724e75c46d32d29b980.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-dcbd19ffa2e1096111f361a7928e556fc816fd96.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/List-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b5bfa7c2059cddfc6d1f437c1f7388ea776df0c0">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-a61afee12014aa3f3014eb91ca02ef33388c3abb.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/Primitives-2015.1.423-trial-release/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b640497b8ea9e0b62e7f63d0f5175b9eb4d11e2">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2bdfec899024e686c384f660d9cf32295060b65b.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-e08f33dfd73e64064a33a7f33a05caced84222b2.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-c7655ac2ae82f08d38a0fa90694e3c3234003d6f.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-0eb716bc49c7c9ddde7ae4ab94748bd04ee86ffa.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-ecd26cea5dff894d158203f8c501bd0be60018ab.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-4abb501c1c4e7401e3a8ea1a36347a859907d8ca.jar" />
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-13a86184f00bd5bb33b037e011c01b59cb07bc19.jar" />
     </item>
     <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-2e11ee933d9129c4c66ea0099f97f3f065c13f3f.jar" />
-    </item>
-    <item
-        jar="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/classes.jar"
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
-        <dex dex="/Users/AbS01ute/AndroidStudioProjects/IDAS/app/build/intermediates/pre-dexed/debug/classes-940d3c3b8e2a0d62667803272daf3a942320306b.jar" />
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-24bd00c56ba878a6a0d59ca564e126e408ac3369.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\Primitives-2015.1.423-trial-release\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b640497b8ea9e0b62e7f63d0f5175b9eb4d11e2">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-efdf101a4d484e4862f847f944f56b46fc9322dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\Chart-2015.1.423-trial-release\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d2cd672a3e5f2866dc08c8a9e2065461fa29a920">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-f94894699b4526977b092ab3b59239ec2d6fa98d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\List-2015.1.423-trial-release\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5bfa7c2059cddfc6d1f437c1f7388ea776df0c0">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-40d3ebd1fbe8250fe45bbf9639533ad095249a38.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-dcdd3357711456f3a071bc3737f33c4fe7ff3d8a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-49a5bf3cdd853d85b5fdf809acbc1635692b15f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-3c5becb0b364b49c05f8ad68ecaa94a9b2693293.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-45421162b1e0f613d38b941ce30da4c69fd678af.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\Common-2015.1.423-trial-release\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db8c7997c7beeaf01972aa37eff7507cd382e3e4">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-a6d673de908b6b4717d2bf256b47c7fa0517353b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-ab6a3f027d96bf5f83fa7f354ae8cdd2300f92cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-c6c967d43a04165b0c00c2f6b1d04ba418f28f19.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-50843e8d4a1faf0cda9a3e75e2f2a4b315e96504.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-b3a6a01c1ec7888187aeb78321364636712176d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-9d3e825728a89b698fba6a1b6cd4bc50402978bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-22f5346ee497ff083fe0ba02cf0a853cfdd2946f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-30f5d5adab4ed53ea39b8b8077af0f57bfaed15b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-c91eeb6e9d619550c0e592e2868bea3fd1716bb8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-fcdecfe3ccdf34210795529c7d30547a799feadf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\Feedback-2015.1.423-trial-release\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="408db6de0cc66285135565bf84661fd030270adc">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-f1fd0d533dac2af1a489d8a4ea0612a3704efe37.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-3a6165a97bb08928f93384cc8d2fb9016d0592a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\Input-2015.1.423-trial-release\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2d6c98dfbe4924d52fa557168e3846dfcdee8d47">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-83615676f78a7214bb1456af89bb3c256c3fd99b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-0f508660c8408bf305b75b0e4829116ea5d25f13.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-daee2fd691ed57125d5d863deb9dd767d501f07e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-2feaa6b41b0ad9ce3362009def91cb96052e0007.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-071e1e1347ceafbe06b16443b90f8d82d29e16cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\classes-4dcb53b3c5f08a555d6370017fa5e439b9aea782.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chinakrit\Documents\IDAS\app\libs\android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a0cf96dabecd7b65a3638a229e7bdb42e6b0a77">
+        <dex dex="C:\Users\Chinakrit\Documents\IDAS\app\build\intermediates\pre-dexed\debug\android-support-v13-beeab4b716fecafc6f6ac26d9f65f12729666e90.jar" />
     </item>
 
 </items>
