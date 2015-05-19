@@ -15,19 +15,23 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 
-
+//Concrete class to help other to use communication easier
 public class ArduinoDataController extends AbstractDataController {
 
-
+//    Used in Log for application debugging
     private static final String TAG = ArduinoDataController.class.getSimpleName();
 
-//    private Activity activity;
+//    The port to connect
     private UsbSerialPort usbSerialPort = null;
+//    Parameter for connection
     private UsbSerialPortParameters usbSerialPortParameters = null;
+//    Communication manager
     private SerialInputOutputManager serialInputOutputManager = null;
 
+//    Thread service class
     private final ExecutorService executorService = Executors.newSingleThreadExecutor();
 
+//    Data listener
     private final SerialInputOutputManager.Listener serialInputOutputManagerListener =
             new SerialInputOutputManager.Listener() {
 
@@ -69,6 +73,7 @@ public class ArduinoDataController extends AbstractDataController {
         this.usbSerialPortParameters = usbSerialPortParameters;
     }
 
+//    Establish connection
     @Override
     public void connect(){
 //        UsbManager usbManager = (UsbManager) activity.getSystemService(Context.USB_SERVICE);
@@ -101,6 +106,7 @@ public class ArduinoDataController extends AbstractDataController {
         setConnected(true);
     }
 
+//    Reset serial i/o manager in case that the state has changed
     private void onDeviceStateChange() {
         stopIOManager();
         startIOManager();
@@ -127,10 +133,12 @@ public class ArduinoDataController extends AbstractDataController {
         }
     }
 
+//    Set device port to connect
     public void setUsbSerialPort(UsbSerialPort usbSerialPort) {
         this.usbSerialPort = usbSerialPort;
     }
 
+//    Set parameter for connection
     public void setUsbSerialPortParameters(UsbSerialPortParameters usbSerialPortParameters) {
         this.usbSerialPortParameters = usbSerialPortParameters;
     }

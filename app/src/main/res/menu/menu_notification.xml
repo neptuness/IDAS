@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="ic.kmitl.testnotification.NotificationActivity">
-    <item android:id="@+id/action_settings" android:title="DummyNotification"
+
+    <item android:id="@+id/action_dummynotification" android:title="DummyNotification"
         android:orderInCategory="100" app:showAsAction="ifRoom" />
 </menu>

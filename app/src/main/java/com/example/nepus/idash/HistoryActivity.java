@@ -6,18 +6,17 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.CalendarView;
 import android.widget.Toast;
 
 import com.telerik.android.common.Function;
 import com.telerik.widget.calendar.CalendarSelectionMode;
 import com.telerik.widget.calendar.RadCalendarView;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
-
 
 
 public class HistoryActivity extends Activity {

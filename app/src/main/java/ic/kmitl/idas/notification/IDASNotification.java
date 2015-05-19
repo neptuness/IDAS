@@ -7,18 +7,28 @@ import android.content.Context;
 
 import com.example.nepus.idash.R;
 
-
+//Simple form of notification model designed for IDAS application
 public class IDASNotification {
-
+//    Used in Log for application debugging
     private final static String TAG = IDASNotification.class.getSimpleName();
 
+//    Header of the notificaton
     private String title;
+//    Detail of the notification
     private String contentText;
+//    Logo of the notification, launcher icon is set as default logo
     private int icon = R.mipmap.ic_launcher;
+//    Id is used to specify after the notification is broadcast to the system
+//    can be used for notification management
     private int id;
+//    Notification will be cancel automatically if user click on
+//    the notification(contentIntent need to be set)
     private boolean autoCancel = false;
+//    Set to show as heads-up notification
     private boolean heads_up = false;
+//    Intent to launch when user click on notification
     private PendingIntent contentIntent = null;
+//    Intent to launch when user cancel the notification
     private PendingIntent deleteIntent = null;
 
     public IDASNotification(int id, String title, String contentText) {
@@ -88,6 +98,7 @@ public class IDASNotification {
         this.deleteIntent = deleteIntent;
     }
 
+//    Construct and register notification to the system
     void show(Context c){
 
 //        NotificationCompat.Builder builder = new NotificationCompat.Builder(c);
@@ -125,6 +136,7 @@ public class IDASNotification {
         return this.getId() == other.getId();
     }
 
+//    Remove notification from the system
     void cancel(Context context){
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.cancel(id);
