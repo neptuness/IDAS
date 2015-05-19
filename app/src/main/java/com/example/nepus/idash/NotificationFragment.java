@@ -10,8 +10,6 @@ import android.widget.ListView;
 import ic.kmitl.idas.notification.IDASNotificationSystem;
 
 public class NotificationFragment extends Fragment {
-    private ListView listView;
-    private NotificationListViewAdapter adapter;
 
     public NotificationFragment() {
     }
@@ -20,7 +18,7 @@ public class NotificationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_notification, container, false);
-        listView = (ListView) rootView.findViewById(R.id.listView);
+        ListView listView = (ListView) rootView.findViewById(R.id.listView);
         IDASNotificationSystem notiSystem = IDASNotificationSystem.getInstance();
 
 ////        mock data

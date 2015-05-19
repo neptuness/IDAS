@@ -21,7 +21,7 @@ public class NotificationListViewAdapter extends BaseAdapter implements Observer
     private final Context c;
 //    Use List to keep reference to keep all views
 //    Experince in showing wrong view by returning convertView in getView()
-    private List<IDASNotificationView> views = new ArrayList<IDASNotificationView>();
+    private List<IDASNotificationView> views = new ArrayList<>();
 
     public NotificationListViewAdapter(Context c, IDASNotificationSystem notiSystem) {
         notiSystem.addObserver(this);

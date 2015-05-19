@@ -1,7 +1,7 @@
 package com.example.nepus.idash;
 
+import android.app.ActionBar;
 import android.app.Activity;
-import android.app.Fragment;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,20 +12,23 @@ import ic.kmitl.idas.notification.IDASNotificationSystem;
 
 public class NotificationActivity extends Activity {
 
-    private static final String TAG = NotificationActivity.class.getSimpleName();
-    private Fragment notificationFragment;
+//    private static final String TAG = NotificationActivity.class.getSimpleName();
+//    private Fragment notificationFragment;
 //    private TestCommunication notificationFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
         if (savedInstanceState == null) {
-            notificationFragment = new NotificationFragment();
+//            notificationFragment = new NotificationFragment();
 //            notificationFragment = new TestCommunication();
-            getFragmentManager().beginTransaction().add(R.id.container, notificationFragment).commit();
+//            getFragmentManager().beginTransaction().add(R.id.container, notificationFragment).commit();
+            getFragmentManager().beginTransaction().add(R.id.container, new NotificationFragment()).commit();
 
         }
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        ActionBar actionBar = getActionBar();
+        if (actionBar != null)
+            actionBar.setDisplayHomeAsUpEnabled(true);
 
     }
 

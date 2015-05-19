@@ -132,7 +132,8 @@ public class IDASNotification {
             return false;
         if (this.getClass() != o.getClass())
             return false;
-        IDASNotification other = (IDASNotification) o;
+        IDASNotification other;
+        other = (IDASNotification) o;
         return this.getId() == other.getId();
     }
 
