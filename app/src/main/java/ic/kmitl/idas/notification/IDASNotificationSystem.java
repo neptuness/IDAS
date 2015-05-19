@@ -10,16 +10,20 @@ import java.util.Random;
 
 import ic.kmitl.idas.notification.exception.IDASNotificationNotFoundException;
 
-
+//Notification management system for IDAS application
 public class IDASNotificationSystem extends Observable{
+//    Used in Log for application debugging
     private static final String TAG = IDASNotificationSystem.class.getSimpleName();
+//    Keep all the notification for management
     private List<IDASNotification> notificationPool;
+//    Only single instance is available in the system(Singleton Pattern)
     private static IDASNotificationSystem instance = null;
 
     private IDASNotificationSystem() {
         notificationPool = new ArrayList<IDASNotification>();
     }
 
+//    Use synchronized to make thread-safe singleton
     public synchronized static IDASNotificationSystem getInstance(){
         if (instance == null)
             instance = new IDASNotificationSystem();
@@ -61,7 +65,7 @@ public class IDASNotificationSystem extends Observable{
         return notificationPool;
     }
 
-    public int getNotificationSize(){
+    public int getNotificationPoolSize(){
         return notificationPool.size();
     }
 
@@ -75,6 +79,7 @@ public class IDASNotificationSystem extends Observable{
 
     }
 
+//    Randomly generate and check if the id is available
     public int getAvailableNotificationId(){
         Random random = new Random();
         int id;

@@ -12,7 +12,7 @@ import com.example.nepus.idash.R;
 
 import ic.kmitl.idas.notification.exception.IDASNotificationNotFoundException;
 
-
+//View for notification model to use on ui
 public class IDASNotificationView extends RelativeLayout {
     private IDASNotification notification;
     public IDASNotificationView(Context context, IDASNotification notification) {

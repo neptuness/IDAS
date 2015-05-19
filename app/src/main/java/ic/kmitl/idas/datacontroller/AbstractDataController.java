@@ -7,7 +7,7 @@ public abstract class AbstractDataController {
 
     public abstract void sendData(byte[] data);
     public abstract void connect();
-//    protected DataReceiver dataReceiver;
+
     private DataReceiver dataReceiver;
     private Activity activity;
     private boolean connected = false;

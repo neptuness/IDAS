@@ -3,9 +3,7 @@ package ic.kmitl.idas.datacontroller;
 
 import com.hoho.android.usbserial.driver.UsbSerialPort;
 
-/**
- * Created by AbS01ute on 3/2/15 AD.
- */
+//Keep all the parameter for the connection together
 public class UsbSerialPortParameters {
     private int baudRate;
     private int dataBits;

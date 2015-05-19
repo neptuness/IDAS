@@ -13,7 +13,7 @@ import java.nio.charset.Charset;
 
 import ic.kmitl.idas.datacontroller.AbstractDataController;
 
-
+//Fragment to test and show communication information on edit text
 public class TestCommunication extends Fragment {
     private AbstractDataController abstractDataController = null;
     private EditText resultEditText;
@@ -50,7 +50,7 @@ public class TestCommunication extends Fragment {
     }
 
 
-
+//    Append string to result edit text calling from other class
     public void appendTextResult(String str){
         resultEditText.append(str);
     }

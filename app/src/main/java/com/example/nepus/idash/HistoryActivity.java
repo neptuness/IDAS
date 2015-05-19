@@ -1,36 +1,22 @@
 package com.example.nepus.idash;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.CalendarView;
-import android.widget.ListView;
 import android.widget.Toast;
 
 import com.telerik.android.common.Function;
 import com.telerik.widget.calendar.CalendarSelectionMode;
 import com.telerik.widget.calendar.RadCalendarView;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
-import java.util.Map;
 
 
 public class HistoryActivity extends Activity {

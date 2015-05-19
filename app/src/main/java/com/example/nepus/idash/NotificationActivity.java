@@ -2,28 +2,10 @@ package com.example.nepus.idash;
 
 import android.app.Activity;
 import android.app.Fragment;
-import android.content.Context;
-import android.hardware.usb.UsbManager;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.os.SystemClock;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.hoho.android.usbserial.driver.UsbSerialDriver;
-import com.hoho.android.usbserial.driver.UsbSerialPort;
-import com.hoho.android.usbserial.driver.UsbSerialProber;
-
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.List;
-
-import ic.kmitl.idas.datacontroller.AbstractDataController;
-import ic.kmitl.idas.datacontroller.DataControllerFactory;
-import ic.kmitl.idas.datacontroller.DataReceiver;
 import ic.kmitl.idas.notification.IDASNotification;
 import ic.kmitl.idas.notification.IDASNotificationSystem;
 
@@ -62,8 +44,9 @@ public class NotificationActivity extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+
+//        Create dummy notification for demonstration
+        if (id == R.id.action_dummynotification) {
             IDASNotificationSystem notiSystem = IDASNotificationSystem.getInstance();
             IDASNotification notification = new IDASNotification(notiSystem.getAvailableNotificationId(), "IDASNotification", "dummy content");
             notification.setAutoCancel(true);

@@ -14,9 +14,13 @@ import ic.kmitl.idas.notification.IDASNotification;
 import ic.kmitl.idas.notification.IDASNotificationSystem;
 import ic.kmitl.idas.notification.IDASNotificationView;
 
+//Adapter for list view designed for Nofication fragment
+//Using observer pattern to observer IDAS notification system
 public class NotificationListViewAdapter extends BaseAdapter implements Observer{
 
     private final Context c;
+//    Use List to keep reference to keep all views
+//    Experince in showing wrong view by returning convertView in getView()
     private List<IDASNotificationView> views = new ArrayList<IDASNotificationView>();
 
     public NotificationListViewAdapter(Context c, IDASNotificationSystem notiSystem) {
@@ -45,6 +49,7 @@ public class NotificationListViewAdapter extends BaseAdapter implements Observer
         return views.get(position);
     }
 
+//    Observer interface overriding
     @Override
     public void update(Observable observable, Object data) {
         if (observable instanceof IDASNotificationSystem){
@@ -53,6 +58,7 @@ public class NotificationListViewAdapter extends BaseAdapter implements Observer
         }
     }
 
+//    Recreate all the notification view using new data from IDAS notification system
     private void reload(IDASNotificationSystem notiSystem){
         views.clear();
         List<IDASNotification> notificationList = notiSystem.getNotificationList();
