@@ -5,6 +5,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.nepus.idash.Maps.HistoryActivity;
+import com.example.nepus.idash.Notification.NotificationActivity;
+import com.example.nepus.idash.Setting.SettingActivity;
+import com.example.nepus.idash.System.SystemActivity;
+
 import ic.kmitl.idas.notification.IDASNotificationSystem;
 
 //public class MainActivity extends FragmentActivity {

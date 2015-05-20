@@ -9,14 +9,14 @@
 
     <LinearLayout style="@style/LinearHorizontal">
 
-        <com.example.nepus.idash.ArcProgress
+        <com.example.nepus.idash.Dashboard.ArcProgress
             android:id="@+id/coolant_temp"
             custom:arc_bottom_text="Coolant"
             custom:arc_suffix_text=" %"
             style="@style/Small_widgets"
             />
 
-        <com.example.nepus.idash.ArcProgress
+        <com.example.nepus.idash.Dashboard.ArcProgress
             android:id="@+id/engine_temp"
             custom:arc_bottom_text="Engine Temp"
             custom:arc_suffix_text=" %"
@@ -26,13 +26,13 @@
 
     <LinearLayout style="@style/LinearHorizontal">
 
-        <com.example.nepus.idash.ArcProgress
+        <com.example.nepus.idash.Dashboard.ArcProgress
             android:id="@+id/rpm_progress"
             custom:arc_bottom_text=" RPM"
             style="@style/Small_widgets"
             />
 
-        <com.example.nepus.idash.ArcProgress
+        <com.example.nepus.idash.Dashboard.ArcProgress
             android:id="@+id/torque_progress"
             custom:arc_bottom_text="Torque"
             custom:arc_suffix_text=" ft.lb"
@@ -42,14 +42,14 @@
 
     <LinearLayout style="@style/LinearHorizontal">
 
-        <com.example.nepus.idash.ArcProgress
+        <com.example.nepus.idash.Dashboard.ArcProgress
             android:id="@+id/th_progress"
             custom:arc_bottom_text="Throttle"
             custom:arc_suffix_text=" %"
             style="@style/Small_widgets"
             />
 
-        <com.example.nepus.idash.ArcProgress
+        <com.example.nepus.idash.Dashboard.ArcProgress
             android:id="@+id/MAF_progress"
             custom:arc_bottom_text="MAF"
             custom:arc_suffix_text=" m3/s"

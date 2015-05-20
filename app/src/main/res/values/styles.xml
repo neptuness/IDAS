@@ -7,7 +7,7 @@
     <style name="Theme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:background">#FF060031</item>
+        <item name="android:background">#FF0000</item>
     </style>
 
     <style name="Header">

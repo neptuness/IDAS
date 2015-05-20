@@ -7,7 +7,7 @@
     android:gravity="center"
     tools:context=".MyActivity">
 
-    <com.example.nepus.idash.ArcProgress
+    <com.example.nepus.idash.Dashboard.ArcProgress
         android:id="@+id/coolant_progress"
         custom:arc_bottom_text="Coolant temperature"
         custom:arc_suffix_text=" o"

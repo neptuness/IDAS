@@ -34,7 +34,7 @@
                 android:resource="@xml/device_filter" />
         </activity>
         <activity
-            android:name=".SystemActivity"
+            android:name=".System.SystemActivity"
             android:label="@string/title_dashboard"
             android:parentActivityName=".MainActivity" >
             <meta-data
@@ -50,20 +50,20 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".Maps.MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
         <activity
-            android:name=".HistoryActivity"
+            android:name=".Maps.HistoryActivity"
             android:label="@string/title_activity_history" >
         </activity>
-        <activity android:name=".NotificationActivity"
+        <activity android:name=".Notification.NotificationActivity"
             android:label="@string/title_activity_notification">
 
         </activity>
 
         <activity
-            android:name=".SettingActivity"
+            android:name=".Setting.SettingActivity"
             android:label="@string/title_activity_setting" >
 
         </activity>
